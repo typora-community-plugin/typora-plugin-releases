@@ -5,5 +5,12 @@
     "author": "plylrnsdy",
     "description": "Do not install! Only use for Development.",
     "repo": "typora-community-plugin/typora-plugin-example"
+  },
+  {
+    "id": "typora-community-plugin.tag",
+    "name": "Typora Plugin Tag",
+    "author": "plylrnsdy",
+    "description": "Support tag like `#tag`.",
+    "repo": "typora-community-plugin/typora-plugin-tag"
   }
 ]
