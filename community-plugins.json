@@ -1,10 +1,10 @@
 [
   {
-    "id": "typora-community-plugin.example",
-    "name": "Typora Plugin Example",
+    "id": "typora-community-plugin.codeblock-copy-button",
+    "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
-    "description": "Do not install! Only use for Development.",
-    "repo": "typora-community-plugin/typora-plugin-example"
+    "description": "Add a copy button to each codeblock's top-right corner.",
+    "repo": "typora-community-plugin/typora-plugin-tag"
   },
   {
     "id": "typora-community-plugin.tag",
