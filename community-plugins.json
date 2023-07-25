@@ -1,9 +1,9 @@
 [
   {
-    "id": "plylrnsdy.typora-plugin-example",
+    "id": "typora-community-plugin.example",
     "name": "Typora Plugin Example",
     "author": "plylrnsdy",
-    "description": "Example plugin.",
-    "repo": "plylrnsdy/typora-plugin-example"
+    "description": "Do not install! Only use for Development.",
+    "repo": "typora-community-plugin/typora-plugin-example"
   }
 ]
