@@ -14,6 +14,13 @@
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper"
   },
   {
+    "id": "typora-community-plugin.collapsible-section",
+    "name": "Collapsible Section",
+    "author": "plylrnsdy",
+    "description": "Fold/unfold markdown section.",
+    "repo": "typora-community-plugin/typora-plugin-collapsible-section"
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
