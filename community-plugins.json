@@ -4,11 +4,18 @@
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
     "description": "Add a copy button to each codeblock's top-right corner.",
-    "repo": "typora-community-plugin/typora-plugin-tag"
+    "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button"
+  },
+  {
+    "id": "typora-community-plugin.note-refactor",
+    "name": "Note Refactor",
+    "author": "plylrnsdy",
+    "description": "Extract selection to new file.",
+    "repo": "typora-community-plugin/typora-plugin-note-refactor"
   },
   {
     "id": "typora-community-plugin.tag",
-    "name": "Typora Plugin Tag",
+    "name": "Tag",
     "author": "plylrnsdy",
     "description": "Support tag like `#tag`.",
     "repo": "typora-community-plugin/typora-plugin-tag"
