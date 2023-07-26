@@ -33,5 +33,12 @@
     "author": "plylrnsdy",
     "description": "Support tag like `#tag`.",
     "repo": "typora-community-plugin/typora-plugin-tag"
+  },
+  {
+    "id": "typora-community-plugin.wikilink",
+    "name": "Wiki Link",
+    "author": "plylrnsdy",
+    "description": "Support wikilink like `[[wikilink]]`.",
+    "repo": "typora-community-plugin/typora-plugin-wikilink"
   }
 ]
