@@ -7,6 +7,13 @@
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button"
   },
   {
+    "id": "typora-community-plugin.codeblock-highlight-mapper",
+    "name": "Codeblock Highlight Mapper",
+    "author": "plylrnsdy",
+    "description": "Map language A to language B for highlighting it.",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper"
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
