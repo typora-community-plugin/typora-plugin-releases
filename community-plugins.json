@@ -1,5 +1,12 @@
 [
   {
+    "id": "typora-community-plugin.callout",
+    "name": "Callout",
+    "author": "plylrnsdy",
+    "description": "Support Obsidian-like Callout `> [!type]`.",
+    "repo": "typora-community-plugin/typora-plugin-callout"
+  },
+  {
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
