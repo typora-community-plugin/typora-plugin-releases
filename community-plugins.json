@@ -28,6 +28,13 @@
     "repo": "typora-community-plugin/typora-plugin-collapsible-section"
   },
   {
+    "id": "typora-community-plugin.file-icon",
+    "name": "File Icon",
+    "author": "plylrnsdy",
+    "description": "Show different icon for different file type in file tree.",
+    "repo": "typora-community-plugin/typora-plugin-file-icon"
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
