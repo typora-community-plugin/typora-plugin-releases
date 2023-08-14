@@ -42,6 +42,13 @@
     "repo": "typora-community-plugin/typora-plugin-note-refactor"
   },
   {
+    "id": "typora-community-plugin.note-snippets",
+    "name": "Note Snippets",
+    "author": "plylrnsdy",
+    "description": "Use slash command to autocomplete note snippets.",
+    "repo": "typora-community-plugin/typora-plugin-note-snippets"
+  },
+  {
     "id": "typora-community-plugin.tag",
     "name": "Tag",
     "author": "plylrnsdy",
