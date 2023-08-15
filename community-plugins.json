@@ -35,6 +35,13 @@
     "repo": "typora-community-plugin/typora-plugin-file-icon"
   },
   {
+    "id": "typora-community-plugin.front-matter",
+    "name": "Front Matter",
+    "author": "plylrnsdy",
+    "description": "Auto edit front matter.",
+    "repo": "typora-community-plugin/typora-plugin-front-matter"
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
