@@ -5,7 +5,7 @@
     "author": "plylrnsdy",
     "description": "Support Obsidian-like Callout `> [!type]`.",
     "repo": "typora-community-plugin/typora-plugin-callout",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.codeblock-copy-button",
@@ -13,7 +13,7 @@
     "author": "plylrnsdy",
     "description": "Add a copy button to each codeblock's top-right corner.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.codeblock-highlight-mapper",
@@ -21,7 +21,7 @@
     "author": "plylrnsdy",
     "description": "Map language A to language B for highlighting it.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.collapsible-section",
@@ -29,7 +29,7 @@
     "author": "plylrnsdy",
     "description": "Fold/unfold markdown section.",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.file-icon",
@@ -45,7 +45,7 @@
     "author": "plylrnsdy",
     "description": "Auto edit front matter.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.note-refactor",
