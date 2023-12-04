@@ -4,69 +4,79 @@
     "name": "Callout",
     "author": "plylrnsdy",
     "description": "Support Obsidian-like Callout `> [!type]`.",
-    "repo": "typora-community-plugin/typora-plugin-callout"
+    "repo": "typora-community-plugin/typora-plugin-callout",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
     "description": "Add a copy button to each codeblock's top-right corner.",
-    "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button"
+    "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
     "description": "Map language A to language B for highlighting it.",
-    "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper"
+    "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
     "description": "Fold/unfold markdown section.",
-    "repo": "typora-community-plugin/typora-plugin-collapsible-section"
+    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
     "description": "Show different icon for different file type in file tree.",
-    "repo": "typora-community-plugin/typora-plugin-file-icon"
+    "repo": "typora-community-plugin/typora-plugin-file-icon",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
     "description": "Auto edit front matter.",
-    "repo": "typora-community-plugin/typora-plugin-front-matter"
+    "repo": "typora-community-plugin/typora-plugin-front-matter",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
     "description": "Extract selection to new file.",
-    "repo": "typora-community-plugin/typora-plugin-note-refactor"
+    "repo": "typora-community-plugin/typora-plugin-note-refactor",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
     "description": "Use slash command to autocomplete note snippets.",
-    "repo": "typora-community-plugin/typora-plugin-note-snippets"
+    "repo": "typora-community-plugin/typora-plugin-note-snippets",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.tag",
     "name": "Tag",
     "author": "plylrnsdy",
     "description": "Support tag like `#tag`.",
-    "repo": "typora-community-plugin/typora-plugin-tag"
+    "repo": "typora-community-plugin/typora-plugin-tag",
+    "platforms": ["win32", "linux"]
   },
   {
     "id": "typora-community-plugin.wikilink",
     "name": "Wiki Link",
     "author": "plylrnsdy",
     "description": "Support wikilink like `[[wikilink]]`.",
-    "repo": "typora-community-plugin/typora-plugin-wikilink"
+    "repo": "typora-community-plugin/typora-plugin-wikilink",
+    "platforms": ["win32", "linux"]
   }
 ]

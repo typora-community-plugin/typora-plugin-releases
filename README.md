@@ -21,6 +21,7 @@ A plugin list of [typora-community-plugin](https://github.com/typora-community-p
     "name": "Plugin Name",
     "author": "author",
     "description": "Plugin description.",
-    "repo": "github-user/github-repo"
+    "repo": "github-user/github-repo",
+    "platforms": ["win32", "linux", "darwin"]
   }
   ```
