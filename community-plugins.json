@@ -48,6 +48,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.markmap",
+    "name": "Markmap",
+    "author": "plylrnsdy",
+    "description": "Use Markmap in Typora.",
+    "repo": "typora-community-plugin/typora-plugin-markmap",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
