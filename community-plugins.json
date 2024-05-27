@@ -77,7 +77,7 @@
     "author": "plylrnsdy",
     "description": "Support tag like `#tag`.",
     "repo": "typora-community-plugin/typora-plugin-tag",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.wikilink",
