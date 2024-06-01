@@ -1,5 +1,13 @@
 [
   {
+    "id": "typora-community-plugin.abcjs",
+    "name": "ABC Music Notation",
+    "author": "plylrnsdy",
+    "description": "Use ABC music notation in codeblock.",
+    "repo": "typora-community-plugin/typora-plugin-abcjs",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.callout",
     "name": "Callout",
     "author": "plylrnsdy",
