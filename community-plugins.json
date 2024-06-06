@@ -40,6 +40,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.darkmode",
+    "name": "Dark Mode",
+    "author": "plylrnsdy",
+    "description": "General dark mode for any theme.",
+    "repo": "typora-community-plugin/typora-plugin-darkmode",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
