@@ -40,6 +40,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.code-folding",
+    "name": "Code Folding",
+    "author": "plylrnsdy",
+    "description": "Make your codes foldable.",
+    "repo": "typora-community-plugin/typora-plugin-code-folding",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
