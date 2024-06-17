@@ -97,8 +97,8 @@ jobs:
               console.log('All done!');
             })();
       - run: |
-          git config --local user.name 'plylrnsdy'
-          git config --local user.email 'plylrnsdy@163.com'
+          git config --local user.name 'Typora Plugin Bot'
+          git config --local user.email 'tcp-bot@outlook.com'
           git add .
           git commit -m "chore: Update plugin stats (by Github Actions)"
           git push
