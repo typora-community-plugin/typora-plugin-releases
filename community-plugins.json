@@ -35,7 +35,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "Fold/unfold markdown section.",
+    "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table.",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": ["win32", "linux", "darwin"]
   },
@@ -67,8 +67,16 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "Auto edit front matter.",
+    "description": "Auto edit front matter, support created-time & updated-time.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "typora-community-plugin.image-location",
+    "name": "Image Location",
+    "author": "plylrnsdy",
+    "description": "Resolve image's location relative to vault's root.",
+    "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": ["win32", "linux", "darwin"]
   },
   {
