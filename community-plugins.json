@@ -80,6 +80,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.image-viewer",
+    "name": "Image Viewer",
+    "author": "plylrnsdy",
+    "description": "View all the images in the current Markdown.",
+    "repo": "typora-community-plugin/typora-plugin-image-viewer",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
