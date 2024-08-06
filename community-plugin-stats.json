@@ -13,10 +13,10 @@
     "updated": 1718375112000
   },
   "typora-community-plugin.codeblock-copy-button": {
-    "1.1.0": 124,
+    "1.1.0": 125,
     "1.0.1": 21,
     "1.0.0": 7,
-    "downloads": 152,
+    "downloads": 153,
     "updated": 1701706950000
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
@@ -71,9 +71,9 @@
     "updated": 1719135462000
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 2,
+    "downloads": 3,
     "updated": 1722656325000,
-    "1.0.2": 1,
+    "1.0.2": 2,
     "1.0.0": 1
   },
   "typora-community-plugin.markmap": {
