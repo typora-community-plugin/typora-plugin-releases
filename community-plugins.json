@@ -109,7 +109,7 @@
     "author": "plylrnsdy",
     "description": "Use slash command to autocomplete note snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.tag",
