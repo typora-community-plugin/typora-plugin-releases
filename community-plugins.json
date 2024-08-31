@@ -120,6 +120,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.wavedrom",
+    "name": "WaveDrom",
+    "author": "plylrnsdy",
+    "description": "Use WaveDrom in Typora",
+    "repo": "typora-community-plugin/typora-plugin-wavedrom",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.wikilink",
     "name": "Wiki Link",
     "author": "plylrnsdy",
