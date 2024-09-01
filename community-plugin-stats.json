@@ -24,9 +24,10 @@
     "1.1.0": 24,
     "1.0.1": 9,
     "1.0.0": 5,
-    "downloads": 60,
-    "updated": 1721885332000,
-    "1.1.2": 15
+    "downloads": 62,
+    "updated": 1725098030000,
+    "1.1.2": 15,
+    "1.1.3": 2
   },
   "typora-community-plugin.collapsible-section": {
     "1.4.1": 14,
@@ -115,13 +116,18 @@
     "1.6.1": 30
   },
   "typora-community-plugin.wikilink": {
-    "1.1.7": 48,
+    "1.1.7": 49,
     "1.1.5": 2,
     "1.1.2": 5,
     "1.1.1": 4,
     "1.0.1": 6,
     "1.0.0": 4,
-    "downloads": 69,
+    "downloads": 70,
     "updated": 1693245502000
+  },
+  "typora-community-plugin.wavedrom": {
+    "1.0.0": 1,
+    "downloads": 1,
+    "updated": 1725103457000
   }
 }
