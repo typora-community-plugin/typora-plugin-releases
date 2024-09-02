@@ -115,19 +115,19 @@
     "updated": 1720357031000,
     "1.6.1": 30
   },
+  "typora-community-plugin.wavedrom": {
+    "1.0.0": 1,
+    "downloads": 1,
+    "updated": 1725103457000
+  },
   "typora-community-plugin.wikilink": {
     "1.1.7": 49,
     "1.1.5": 2,
     "1.1.2": 5,
     "1.1.1": 4,
-    "1.0.1": 6,
+    "1.0.1": 7,
     "1.0.0": 4,
-    "downloads": 70,
+    "downloads": 71,
     "updated": 1693245502000
-  },
-  "typora-community-plugin.wavedrom": {
-    "1.0.0": 1,
-    "downloads": 1,
-    "updated": 1725103457000
   }
 }
