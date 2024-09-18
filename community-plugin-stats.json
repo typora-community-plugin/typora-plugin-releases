@@ -37,10 +37,10 @@
     "1.2.0": 44,
     "1.1.0": 12,
     "1.0.0": 11,
-    "downloads": 193,
+    "downloads": 196,
     "updated": 1723471062000,
     "1.5.2": 44,
-    "1.6.0": 48
+    "1.6.0": 51
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 53,
@@ -55,9 +55,9 @@
     "1.1.2": 18
   },
   "typora-community-plugin.file-icon": {
-    "1.0.1": 64,
+    "1.0.1": 65,
     "1.0.0": 4,
-    "downloads": 68,
+    "downloads": 69,
     "updated": 1692626134000
   },
   "typora-community-plugin.front-matter": {
