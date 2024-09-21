@@ -43,8 +43,8 @@
     "1.6.0": 57
   },
   "typora-community-plugin.code-folding": {
-    "1.0.0": 58,
-    "downloads": 58,
+    "1.0.0": 59,
+    "downloads": 59,
     "updated": 1718379239000
   },
   "typora-community-plugin.darkmode": {
@@ -55,9 +55,9 @@
     "1.1.2": 19
   },
   "typora-community-plugin.file-icon": {
-    "1.0.1": 69,
+    "1.0.1": 70,
     "1.0.0": 4,
-    "downloads": 73,
+    "downloads": 74,
     "updated": 1692626134000
   },
   "typora-community-plugin.front-matter": {
@@ -70,9 +70,9 @@
   },
   "typora-community-plugin.image-location": {
     "1.0.0": 11,
-    "downloads": 29,
+    "downloads": 30,
     "updated": 1723011569000,
-    "1.0.3": 15,
+    "1.0.3": 16,
     "1.0.1": 2,
     "1.0.2": 1
   },
@@ -83,13 +83,13 @@
     "1.0.0": 2
   },
   "typora-community-plugin.markmap": {
-    "1.0.0": 43,
-    "downloads": 43,
+    "1.0.0": 44,
+    "downloads": 44,
     "updated": 1716789564000
   },
   "typora-community-plugin.note-refactor": {
-    "1.0.0": 23,
-    "downloads": 23,
+    "1.0.0": 25,
+    "downloads": 25,
     "updated": 1690340856000
   },
   "typora-community-plugin.note-snippets": {
@@ -98,13 +98,13 @@
     "1.0.2": 6,
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 91,
+    "downloads": 92,
     "updated": 1724488072000,
     "1.1.4": 3,
     "1.1.3": 4,
     "1.1.2": 2,
     "1.1.1": 3,
-    "1.1.5": 12
+    "1.1.5": 13
   },
   "typora-community-plugin.tag": {
     "1.5.1": 15,
@@ -112,9 +112,9 @@
     "1.3.1": 4,
     "1.0.2": 4,
     "1.0.1": 3,
-    "downloads": 100,
+    "downloads": 101,
     "updated": 1720357031000,
-    "1.6.1": 40
+    "1.6.1": 41
   },
   "typora-community-plugin.wavedrom": {
     "1.0.0": 4,
@@ -122,13 +122,13 @@
     "updated": 1725103457000
   },
   "typora-community-plugin.wikilink": {
-    "1.1.7": 60,
+    "1.1.7": 61,
     "1.1.5": 2,
     "1.1.2": 5,
     "1.1.1": 4,
     "1.0.1": 7,
     "1.0.0": 4,
-    "downloads": 82,
+    "downloads": 83,
     "updated": 1693245502000
   }
 }
