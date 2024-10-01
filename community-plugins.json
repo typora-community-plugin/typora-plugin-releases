@@ -64,6 +64,14 @@
     "platforms": ["win32", "linux"]
   },
   {
+    "id": "typora-community-plugin.footnotes",
+    "name": "Footnotes",
+    "author": "plylrnsdy",
+    "description": "Re-index the numerical footnotes.",
+    "repo": "typora-community-plugin/typora-plugin-footnotes",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
