@@ -14,10 +14,10 @@
     "1.1.3": 19
   },
   "typora-community-plugin.codeblock-copy-button": {
-    "1.1.0": 174,
+    "1.1.0": 175,
     "1.0.1": 22,
     "1.0.0": 9,
-    "downloads": 205,
+    "downloads": 206,
     "updated": 1701706950000
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
@@ -25,10 +25,10 @@
     "1.1.0": 25,
     "1.0.1": 10,
     "1.0.0": 7,
-    "downloads": 80,
+    "downloads": 81,
     "updated": 1725098030000,
     "1.1.2": 17,
-    "1.1.3": 13
+    "1.1.3": 14
   },
   "typora-community-plugin.collapsible-section": {
     "1.4.1": 15,
@@ -37,24 +37,24 @@
     "1.2.0": 45,
     "1.1.0": 13,
     "1.0.0": 12,
-    "downloads": 219,
+    "downloads": 221,
     "updated": 1727280046000,
     "1.5.2": 45,
     "1.6.0": 64,
     "1.8.0": 1,
-    "1.8.1": 2
+    "1.8.1": 4
   },
   "typora-community-plugin.code-folding": {
-    "1.0.0": 65,
-    "downloads": 65,
+    "1.0.0": 66,
+    "downloads": 66,
     "updated": 1718379239000
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 13,
     "1.0.0": 3,
-    "downloads": 39,
+    "downloads": 40,
     "updated": 1722778776000,
-    "1.1.2": 23
+    "1.1.2": 24
   },
   "typora-community-plugin.file-icon": {
     "1.0.1": 79,
@@ -79,15 +79,15 @@
     "1.0.2": 2
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 41,
+    "downloads": 43,
     "updated": 1727529358000,
     "1.0.2": 34,
     "1.0.0": 3,
-    "1.0.3": 4
+    "1.0.3": 6
   },
   "typora-community-plugin.markmap": {
-    "1.0.0": 50,
-    "downloads": 50,
+    "1.0.0": 51,
+    "downloads": 51,
     "updated": 1716789564000
   },
   "typora-community-plugin.note-refactor": {
@@ -101,13 +101,13 @@
     "1.0.2": 7,
     "1.0.1": 3,
     "1.0.0": 5,
-    "downloads": 105,
+    "downloads": 106,
     "updated": 1724488072000,
     "1.1.4": 4,
     "1.1.3": 5,
     "1.1.2": 3,
     "1.1.1": 4,
-    "1.1.5": 16
+    "1.1.5": 17
   },
   "typora-community-plugin.tag": {
     "1.5.1": 16,
@@ -115,9 +115,9 @@
     "1.3.1": 5,
     "1.0.2": 6,
     "1.0.1": 4,
-    "downloads": 112,
+    "downloads": 114,
     "updated": 1720357031000,
-    "1.6.1": 46
+    "1.6.1": 48
   },
   "typora-community-plugin.wavedrom": {
     "1.0.0": 7,
@@ -134,5 +134,11 @@
     "downloads": 97,
     "updated": 1726917020000,
     "1.2.0": 7
+  },
+  "typora-community-plugin.footnotes": {
+    "1.0.1": 2,
+    "1.0.0": 2,
+    "downloads": 4,
+    "updated": 1727804390000
   }
 }
