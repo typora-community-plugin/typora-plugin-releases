@@ -81,9 +81,10 @@ jobs:
                     }
                   }
 
+                  const blacklist = ['downloads', 'updated', 'latest', 'size'];
                   let total = 0;
                   for (let version in stats) {
-                    if (stats.hasOwnProperty(version) && version !== 'downloads' && version !== 'updated' && version !== 'latest') {
+                    if (stats.hasOwnProperty(version) && !blacklist.includes(version)) {
                       total += stats[version];
                     }
                   }
