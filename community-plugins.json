@@ -35,7 +35,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table.",
+    "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table, Quoteblock, Callout.",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": ["win32", "linux", "darwin"]
   },
@@ -67,7 +67,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Re-index the numerical footnotes.",
+    "description": "Footnote marker suggestion & Re-index the numerical footnotes.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": ["win32", "linux", "darwin"]
   },

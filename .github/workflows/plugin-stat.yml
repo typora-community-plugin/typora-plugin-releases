@@ -70,6 +70,10 @@ jobs:
                     for (let asset of assets) {
                       if (asset.name === 'plugin.zip') {
                         downloads = asset.download_count;
+
+                        if (updated === publishTs) {
+                          stats['size'] = asset.size;
+                        }
                       }
                     }
                     if (downloads) {
@@ -100,5 +104,5 @@ jobs:
           git config --local user.name 'Typora Plugin Bot'
           git config --local user.email 'tcp-bot@outlook.com'
           git add .
-          git commit -m "chore: Update plugin stats (by Github Actions)"
+          git commit -m "refactor: Update plugin stats (by Github Actions)"
           git push
