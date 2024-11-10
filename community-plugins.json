@@ -128,6 +128,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.templater",
+    "name": "Templater",
+    "author": "plylrnsdy",
+    "description": "Create note by templater.",
+    "repo": "typora-community-plugin/typora-plugin-templater",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
