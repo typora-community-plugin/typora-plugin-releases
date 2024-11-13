@@ -1,7 +1,7 @@
 {
   "typora-community-plugin.abcjs": {
-    "1.1.0": 41,
-    "downloads": 41,
+    "1.1.0": 42,
+    "downloads": 42,
     "updated": 1717249655000,
     "size": 140038
   },
@@ -53,10 +53,10 @@
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 78,
-    "downloads": 85,
+    "downloads": 86,
     "updated": 1729923951000,
     "size": 12522,
-    "1.0.2": 7
+    "1.0.2": 8
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 13,
@@ -147,11 +147,12 @@
     "size": 3945
   },
   "typora-community-plugin.templater": {
-    "size": 3638,
+    "size": 3898,
     "1.0.0": 3,
-    "downloads": 4,
-    "updated": 1731308344000,
-    "1.0.2": 1
+    "downloads": 5,
+    "updated": 1731393632000,
+    "1.0.2": 1,
+    "1.0.3": 1
   },
   "typora-community-plugin.wavedrom": {
     "1.0.0": 14,
