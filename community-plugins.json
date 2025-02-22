@@ -150,5 +150,13 @@
     "description": "Support wikilink like `[[wikilink]]`.",
     "repo": "typora-community-plugin/typora-plugin-wikilink",
     "platforms": ["win32", "linux"]
+  },
+  {
+    "id": "typora-community-plugin.md-padding",
+    "name": "Markdown Padding",
+    "author": "SukiEva",
+    "description": "Formatting Markdown content with padding.",
+    "repo": "SukiEva/typora-plugin-md-padding",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
