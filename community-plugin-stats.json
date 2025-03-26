@@ -10,29 +10,29 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 283,
+    "downloads": 288,
     "updated": 1725513790000,
-    "1.1.3": 109,
+    "1.1.3": 114,
     "size": 2414
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 189,
     "1.0.1": 24,
     "1.0.0": 9,
-    "downloads": 356,
+    "downloads": 359,
     "updated": 1729263843000,
     "size": 1358,
-    "1.1.1": 134
+    "1.1.1": 137
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
     "1.1.0": 26,
     "1.0.1": 12,
     "1.0.0": 9,
-    "downloads": 128,
+    "downloads": 129,
     "updated": 1725098030000,
     "1.1.2": 17,
-    "1.1.3": 54,
+    "1.1.3": 55,
     "size": 2200
   },
   "typora-community-plugin.collapsible-section": {
@@ -42,21 +42,21 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 438,
+    "downloads": 439,
     "updated": 1730963544000,
     "1.5.2": 46,
     "1.6.0": 65,
     "1.8.0": 3,
     "1.8.1": 36,
     "size": 5481,
-    "1.8.2": 171
+    "1.8.2": 172
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
-    "downloads": 162,
+    "downloads": 164,
     "updated": 1729923951000,
     "size": 12522,
-    "1.0.2": 83
+    "1.0.2": 85
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
@@ -86,27 +86,27 @@
     "1.1.0": 34,
     "1.0.2": 18,
     "1.0.1": 4,
-    "downloads": 152,
+    "downloads": 153,
     "updated": 1741505115000,
     "1.2.1": 83,
     "size": 3845,
-    "1.3.1": 13
+    "1.3.1": 14
   },
   "typora-community-plugin.image-location": {
     "1.0.0": 14,
-    "downloads": 74,
+    "downloads": 75,
     "updated": 1723011569000,
-    "1.0.3": 53,
+    "1.0.3": 54,
     "1.0.1": 4,
     "1.0.2": 3,
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 101,
+    "downloads": 102,
     "updated": 1727529358000,
     "1.0.2": 35,
     "1.0.0": 4,
-    "1.0.3": 62,
+    "1.0.3": 63,
     "size": 16388
   },
   "typora-community-plugin.markmap": {
