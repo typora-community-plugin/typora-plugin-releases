@@ -1,7 +1,7 @@
 {
   "typora-community-plugin.abcjs": {
-    "1.1.0": 72,
-    "downloads": 72,
+    "1.1.0": 75,
+    "downloads": 75,
     "updated": 1717249655000,
     "size": 140038
   },
@@ -10,29 +10,29 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 299,
+    "downloads": 301,
     "updated": 1725513790000,
-    "1.1.3": 125,
+    "1.1.3": 127,
     "size": 2414
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 189,
     "1.0.1": 24,
     "1.0.0": 9,
-    "downloads": 385,
+    "downloads": 388,
     "updated": 1729263843000,
     "size": 1358,
-    "1.1.1": 163
+    "1.1.1": 166
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
     "1.1.0": 26,
     "1.0.1": 12,
     "1.0.0": 9,
-    "downloads": 132,
+    "downloads": 133,
     "updated": 1725098030000,
     "1.1.2": 17,
-    "1.1.3": 58,
+    "1.1.3": 59,
     "size": 2200
   },
   "typora-community-plugin.collapsible-section": {
@@ -42,28 +42,28 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 475,
+    "downloads": 476,
     "updated": 1730963544000,
     "1.5.2": 46,
     "1.6.0": 65,
     "1.8.0": 3,
     "1.8.1": 36,
     "size": 5481,
-    "1.8.2": 208
+    "1.8.2": 209
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
-    "downloads": 174,
+    "downloads": 176,
     "updated": 1729923951000,
     "size": 12522,
-    "1.0.2": 95
+    "1.0.2": 97
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
     "1.0.0": 4,
-    "downloads": 95,
+    "downloads": 96,
     "updated": 1722778776000,
-    "1.1.2": 76,
+    "1.1.2": 77,
     "size": 1705
   },
   "typora-community-plugin.file-icon": {
@@ -76,9 +76,9 @@
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 70,
+    "downloads": 71,
     "updated": 1727883757000,
-    "1.1.1": 61,
+    "1.1.1": 62,
     "1.1.0": 3,
     "size": 2501
   },
@@ -86,36 +86,36 @@
     "1.1.0": 34,
     "1.0.2": 18,
     "1.0.1": 4,
-    "downloads": 157,
+    "downloads": 158,
     "updated": 1741505115000,
     "1.2.1": 83,
     "size": 3845,
-    "1.3.1": 18
+    "1.3.1": 19
   },
   "typora-community-plugin.image-location": {
     "1.0.0": 14,
-    "downloads": 75,
+    "downloads": 76,
     "updated": 1723011569000,
-    "1.0.3": 54,
+    "1.0.3": 55,
     "1.0.1": 4,
     "1.0.2": 3,
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 108,
+    "downloads": 109,
     "updated": 1727529358000,
     "1.0.2": 35,
     "1.0.0": 4,
-    "1.0.3": 69,
+    "1.0.3": 70,
     "size": 16388
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 84,
-    "downloads": 145,
+    "downloads": 147,
     "updated": 1738827974000,
     "size": 863983,
     "1.1.0": 7,
-    "1.1.3": 31,
+    "1.1.3": 33,
     "1.1.2": 16,
     "1.1.1": 7
   },
@@ -131,13 +131,13 @@
     "1.0.2": 9,
     "1.0.1": 3,
     "1.0.0": 6,
-    "downloads": 173,
+    "downloads": 174,
     "updated": 1724488072000,
     "1.1.4": 6,
     "1.1.3": 6,
     "1.1.2": 4,
     "1.1.1": 5,
-    "1.1.5": 73,
+    "1.1.5": 74,
     "size": 3862
   },
   "typora-community-plugin.tag": {
@@ -146,22 +146,22 @@
     "1.3.1": 8,
     "1.0.2": 7,
     "1.0.1": 6,
-    "downloads": 207,
+    "downloads": 209,
     "updated": 1720357031000,
-    "1.6.1": 131,
+    "1.6.1": 133,
     "size": 3945
   },
   "typora-community-plugin.templater": {
     "size": 3898,
     "1.0.0": 5,
-    "downloads": 41,
+    "downloads": 43,
     "updated": 1731393632000,
     "1.0.2": 1,
-    "1.0.3": 35
+    "1.0.3": 37
   },
   "typora-community-plugin.wavedrom": {
-    "1.0.0": 50,
-    "downloads": 50,
+    "1.0.0": 51,
+    "downloads": 51,
     "updated": 1725103457000,
     "size": 15628
   },
@@ -172,9 +172,9 @@
     "1.1.1": 6,
     "1.0.1": 8,
     "1.0.0": 6,
-    "downloads": 156,
+    "downloads": 158,
     "updated": 1726917020000,
-    "1.2.0": 61,
+    "1.2.0": 63,
     "size": 4600
   },
   "typora-community-plugin.md-padding": {
@@ -182,8 +182,8 @@
     "1.0.2": 6,
     "1.0.1": 10,
     "1.0.0": 2,
-    "downloads": 27,
+    "downloads": 28,
     "updated": 1742651413000,
-    "1.0.3": 9
+    "1.0.3": 10
   }
 }
