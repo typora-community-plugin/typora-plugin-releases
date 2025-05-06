@@ -136,6 +136,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.trigger",
+    "name": "Trigger",
+    "author": "plylrnsdy",
+    "description": "When the event occurs, commands are executed automatically.",
+    "repo": "typora-community-plugin/typora-plugin-trigger",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
