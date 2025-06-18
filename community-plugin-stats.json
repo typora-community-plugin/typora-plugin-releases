@@ -162,8 +162,8 @@
   },
   "typora-community-plugin.trigger": {
     "size": 2437,
-    "1.0.0": 10,
-    "downloads": 10,
+    "1.0.0": 11,
+    "downloads": 11,
     "updated": 1746532996000
   },
   "typora-community-plugin.wavedrom": {
@@ -190,8 +190,8 @@
     "1.0.2": 6,
     "1.0.1": 10,
     "1.0.0": 2,
-    "downloads": 38,
+    "downloads": 39,
     "updated": 1742651413000,
-    "1.0.3": 20
+    "1.0.3": 21
   }
 }
