@@ -19,10 +19,10 @@
     "1.1.0": 189,
     "1.0.1": 24,
     "1.0.0": 9,
-    "downloads": 500,
+    "downloads": 503,
     "updated": 1729263843000,
     "size": 1358,
-    "1.1.1": 278
+    "1.1.1": 281
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
@@ -42,21 +42,21 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 595,
+    "downloads": 597,
     "updated": 1730963544000,
     "1.5.2": 46,
     "1.6.0": 65,
     "1.8.0": 3,
     "1.8.1": 36,
     "size": 5481,
-    "1.8.2": 328
+    "1.8.2": 330
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
-    "downloads": 235,
+    "downloads": 237,
     "updated": 1729923951000,
     "size": 12522,
-    "1.0.2": 156
+    "1.0.2": 158
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
@@ -67,18 +67,18 @@
     "size": 1705
   },
   "typora-community-plugin.file-icon": {
-    "1.0.1": 166,
+    "1.0.1": 167,
     "1.0.0": 5,
-    "downloads": 171,
+    "downloads": 172,
     "updated": 1692626134000,
     "size": 1711
   },
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 96,
+    "downloads": 97,
     "updated": 1727883757000,
-    "1.1.1": 87,
+    "1.1.1": 88,
     "1.1.0": 3,
     "size": 2501
   },
@@ -86,11 +86,11 @@
     "1.1.0": 34,
     "1.0.2": 18,
     "1.0.1": 4,
-    "downloads": 189,
+    "downloads": 190,
     "updated": 1741505115000,
     "1.2.1": 83,
     "size": 3845,
-    "1.3.1": 50
+    "1.3.1": 51
   },
   "typora-community-plugin.image-location": {
     "1.0.0": 14,
@@ -111,11 +111,11 @@
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 84,
-    "downloads": 188,
+    "downloads": 189,
     "updated": 1738827974000,
     "size": 863983,
     "1.1.0": 7,
-    "1.1.3": 74,
+    "1.1.3": 75,
     "1.1.2": 16,
     "1.1.1": 7
   },
@@ -131,13 +131,13 @@
     "1.0.2": 9,
     "1.0.1": 3,
     "1.0.0": 6,
-    "downloads": 194,
+    "downloads": 195,
     "updated": 1724488072000,
     "1.1.4": 6,
     "1.1.3": 6,
     "1.1.2": 4,
     "1.1.1": 5,
-    "1.1.5": 94,
+    "1.1.5": 95,
     "size": 3862
   },
   "typora-community-plugin.tag": {
