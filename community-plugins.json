@@ -166,5 +166,13 @@
     "description": "Format Markdown content with padding.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": ["win32", "linux", "darwin"]
+  },
+    {
+    "id": "typora-community-plugin.githubpusher",
+    "name": "Github Pusher",
+    "author": "Veik",
+    "description": "Push your Markdown files from Typora directly to a GitHub repository.",
+    "repo": "Veikkkk/typora-plugin-push-to-github",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
