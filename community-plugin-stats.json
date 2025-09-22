@@ -44,7 +44,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 677,
+    "downloads": 679,
     "updated": 1756449740000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -52,7 +52,7 @@
     "1.8.1": 36,
     "size": 5575,
     "1.8.2": 355,
-    "1.8.3": 55
+    "1.8.3": 57
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
@@ -106,13 +106,13 @@
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 157,
+    "downloads": 158,
     "updated": 1757254714000,
     "1.0.2": 35,
     "1.0.0": 4,
     "1.0.3": 108,
     "size": 15985,
-    "1.0.4": 10
+    "1.0.4": 11
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 84,
