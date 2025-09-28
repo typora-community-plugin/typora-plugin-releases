@@ -174,5 +174,13 @@
     "description": "Push your Markdown files from Typora directly to a GitHub repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "typora-plugin-markmap-plus",
+    "name": "Markmap Plus",
+    "author": "util6",
+    "description": "Use Markmap in Typora.",
+    "repo": "util6/typora-plugin-markmap-plus",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
