@@ -70,9 +70,9 @@
     "size": 1705
   },
   "typora-community-plugin.file-icon": {
-    "1.0.1": 177,
+    "1.0.1": 178,
     "1.0.0": 5,
-    "downloads": 182,
+    "downloads": 183,
     "updated": 1692626134000,
     "size": 1711
   },
@@ -189,9 +189,9 @@
     "1.1.1": 6,
     "1.0.1": 8,
     "1.0.0": 6,
-    "downloads": 211,
+    "downloads": 212,
     "updated": 1726917020000,
-    "1.2.0": 116,
+    "1.2.0": 117,
     "size": 4600
   },
   "typora-community-plugin.md-padding": {
@@ -211,12 +211,13 @@
     "updated": 1755888347000
   },
   "typora-plugin-markmap-plus": {
-    "size": 932071,
+    "size": 933176,
     "v1.0.1": 1,
-    "downloads": 9,
-    "updated": 1759684324000,
+    "downloads": 10,
+    "updated": 1759986154000,
     "v1.1.0": 5,
     "v1.0.3": 1,
-    "v1.2.10": 2
+    "v1.2.10": 2,
+    "v1.3.0": 1
   }
 }
