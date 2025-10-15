@@ -120,6 +120,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.styled-text",
+    "name": "Styled Text",
+    "author": "plylrnsdy",
+    "description": "Decorate the text matching RegExp.",
+    "repo": "typora-community-plugin/styled-text",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.tag",
     "name": "Tag",
     "author": "plylrnsdy",
