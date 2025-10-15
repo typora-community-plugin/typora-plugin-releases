@@ -124,7 +124,7 @@
     "name": "Styled Text",
     "author": "plylrnsdy",
     "description": "Decorate the text matching RegExp.",
-    "repo": "typora-community-plugin/styled-text",
+    "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": ["win32", "linux", "darwin"]
   },
   {
