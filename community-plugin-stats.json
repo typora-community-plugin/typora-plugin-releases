@@ -1,7 +1,7 @@
 {
   "typora-community-plugin.abcjs": {
-    "1.1.0": 119,
-    "downloads": 119,
+    "1.1.0": 123,
+    "downloads": 123,
     "updated": 1717249655000,
     "size": 140038
   },
@@ -10,32 +10,32 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 373,
+    "downloads": 374,
     "updated": 1725513790000,
-    "1.1.3": 199,
+    "1.1.3": 200,
     "size": 2414
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 189,
     "1.0.1": 24,
     "1.0.0": 9,
-    "downloads": 561,
+    "downloads": 562,
     "updated": 1729263843000,
     "size": 1358,
-    "1.1.1": 339
+    "1.1.1": 340
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
     "1.1.0": 26,
     "1.0.1": 12,
     "1.0.0": 9,
-    "downloads": 187,
+    "downloads": 189,
     "updated": 1756908420000,
     "1.1.2": 17,
     "1.1.3": 97,
     "size": 2152,
     "1.1.4": 2,
-    "1.1.5": 14
+    "1.1.5": 16
   },
   "typora-community-plugin.collapsible-section": {
     "1.4.1": 16,
@@ -44,7 +44,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 725,
+    "downloads": 727,
     "updated": 1760157325000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -53,37 +53,37 @@
     "size": 5599,
     "1.8.2": 355,
     "1.8.3": 88,
-    "1.8.4": 15
+    "1.8.4": 17
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
-    "downloads": 278,
+    "downloads": 280,
     "updated": 1760342982000,
     "size": 12589,
     "1.0.2": 195,
-    "1.0.4": 4
+    "1.0.4": 6
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
     "1.0.0": 4,
-    "downloads": 152,
+    "downloads": 154,
     "updated": 1722778776000,
-    "1.1.2": 133,
+    "1.1.2": 135,
     "size": 1705
   },
   "typora-community-plugin.file-icon": {
-    "1.0.1": 180,
+    "1.0.1": 181,
     "1.0.0": 5,
-    "downloads": 185,
+    "downloads": 186,
     "updated": 1692626134000,
     "size": 1711
   },
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 114,
+    "downloads": 116,
     "updated": 1727883757000,
-    "1.1.1": 105,
+    "1.1.1": 107,
     "1.1.0": 3,
     "size": 2501
   },
@@ -91,34 +91,34 @@
     "1.1.0": 34,
     "1.0.2": 18,
     "1.0.1": 4,
-    "downloads": 216,
+    "downloads": 217,
     "updated": 1756534804000,
     "1.2.1": 83,
     "size": 3850,
     "1.3.1": 55,
-    "1.3.2": 22
+    "1.3.2": 23
   },
   "typora-community-plugin.image-location": {
     "1.0.0": 14,
-    "downloads": 101,
+    "downloads": 102,
     "updated": 1723011569000,
-    "1.0.3": 80,
+    "1.0.3": 81,
     "1.0.1": 4,
     "1.0.2": 3,
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 168,
+    "downloads": 169,
     "updated": 1757254714000,
     "1.0.2": 35,
     "1.0.0": 4,
     "1.0.3": 108,
     "size": 15985,
-    "1.0.4": 21
+    "1.0.4": 22
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 84,
-    "downloads": 239,
+    "downloads": 240,
     "updated": 1757231328000,
     "size": 920176,
     "1.1.0": 7,
@@ -128,7 +128,7 @@
     "1.2.1": 4,
     "1.2.0": 2,
     "1.1.4": 3,
-    "1.2.2": 26
+    "1.2.2": 27
   },
   "typora-community-plugin.note-refactor": {
     "1.0.0": 55,
@@ -163,19 +163,19 @@
     "1.3.1": 8,
     "1.0.2": 7,
     "1.0.1": 6,
-    "downloads": 283,
+    "downloads": 284,
     "updated": 1720357031000,
-    "1.6.1": 207,
+    "1.6.1": 208,
     "size": 3945
   },
   "typora-community-plugin.templater": {
     "size": 4002,
     "1.0.0": 5,
-    "downloads": 100,
+    "downloads": 101,
     "updated": 1748437912000,
     "1.0.2": 1,
     "1.0.3": 40,
-    "1.0.4": 54
+    "1.0.4": 55
   },
   "typora-community-plugin.trigger": {
     "size": 2437,
@@ -207,9 +207,9 @@
     "1.0.2": 6,
     "1.0.1": 10,
     "1.0.0": 3,
-    "downloads": 67,
+    "downloads": 68,
     "updated": 1742651413000,
-    "1.0.3": 48
+    "1.0.3": 49
   },
   "typora-community-plugin.githubpusher": {
     "size": 4202,
@@ -219,14 +219,15 @@
     "updated": 1755888347000
   },
   "typora-plugin-markmap-plus": {
-    "size": 931393,
+    "size": 932249,
     "v1.0.1": 1,
-    "downloads": 17,
-    "updated": 1760689432000,
+    "downloads": 19,
+    "updated": 1760806847000,
     "v1.1.0": 5,
     "v1.0.3": 1,
     "v1.2.10": 2,
     "v1.3.0": 5,
-    "v1.5.0": 3
+    "v1.5.0": 4,
+    "v1.5.1": 1
   }
 }
