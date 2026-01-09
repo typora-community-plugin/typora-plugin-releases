@@ -190,5 +190,13 @@
     "description": "Use Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "typora-community-plugin.git-sync",
+    "name": "Git Sync",
+    "description": "Git sync plugin for typora.",
+    "author": "tai-jing-jian",
+    "repo": "tai-jing-jian/typora-plugin-git-sync",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
