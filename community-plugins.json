@@ -197,6 +197,6 @@
     "description": "Git sync plugin for typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": ["win32", "linux"]
   }
 ]
