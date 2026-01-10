@@ -203,9 +203,9 @@
     "1.1.1": 6,
     "1.0.1": 8,
     "1.0.0": 6,
-    "downloads": 243,
+    "downloads": 244,
     "updated": 1726917020000,
-    "1.2.0": 148,
+    "1.2.0": 149,
     "size": 4600
   },
   "typora-community-plugin.md-padding": {
@@ -241,5 +241,11 @@
     "v1.6.4": 4,
     "v1.6.3": 2,
     "v1.6.7": 40
+  },
+  "typora-community-plugin.git-sync": {
+    "size": 2953,
+    "1.0.0": 1,
+    "downloads": 1,
+    "updated": 1767961334000
   }
 }
