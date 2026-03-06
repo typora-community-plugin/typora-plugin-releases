@@ -200,6 +200,14 @@
     "platforms": ["win32", "linux"]
   }  ,
   {
+    "id": "typora-community-plugin.updated-footer",
+    "name": "Updated Footer",
+    "author": "Runwang Guo",
+    "description": "Show a stable last-updated footer at the bottom of editor.",
+    "repo": "RunwangGuo/typora-plugin-updated-footer",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.hide-assets-folder",
     "name": "Hide Assets Folder",
     "author": "RunwangGuo",
