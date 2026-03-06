@@ -198,5 +198,14 @@
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": ["win32", "linux"]
+  }  ,
+  {
+    "id": "typora-community-plugin.hide-assets-folder",
+    "name": "Hide Assets Folder",
+    "author": "RunwangGuo",
+    "description": "Hide folders ending with .assets in Typora sidebar.",
+    "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
+    "platforms": ["win32", "linux", "darwin"]
   }
+
 ]
