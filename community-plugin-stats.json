@@ -44,7 +44,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 962,
+    "downloads": 963,
     "updated": 1763982936000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -55,7 +55,7 @@
     "1.8.3": 90,
     "1.8.4": 65,
     "1.9.0": 19,
-    "1.9.2": 166
+    "1.9.2": 167
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
@@ -68,9 +68,9 @@
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
     "1.0.0": 4,
-    "downloads": 193,
+    "downloads": 194,
     "updated": 1722778776000,
-    "1.1.2": 174,
+    "1.1.2": 175,
     "size": 1705
   },
   "typora-community-plugin.file-icon": {
