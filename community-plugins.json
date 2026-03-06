@@ -5,7 +5,11 @@
     "author": "plylrnsdy",
     "description": "Use ABC music notation in codeblock.",
     "repo": "typora-community-plugin/typora-plugin-abcjs",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.callout",
@@ -13,7 +17,11 @@
     "author": "plylrnsdy",
     "description": "Support Obsidian-like Callout `> [!type]`.",
     "repo": "typora-community-plugin/typora-plugin-callout",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.codeblock-copy-button",
@@ -21,7 +29,11 @@
     "author": "plylrnsdy",
     "description": "Add a copy button to each codeblock's top-right corner.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.codeblock-highlight-mapper",
@@ -29,7 +41,11 @@
     "author": "plylrnsdy",
     "description": "Map language A to language B for highlighting it.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.collapsible-section",
@@ -37,7 +53,11 @@
     "author": "plylrnsdy",
     "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table, Quoteblock, Callout.",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.code-folding",
@@ -45,7 +65,11 @@
     "author": "plylrnsdy",
     "description": "Make your codes foldable.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.darkmode",
@@ -53,7 +77,11 @@
     "author": "plylrnsdy",
     "description": "General dark mode for any theme.",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.file-icon",
@@ -61,7 +89,10 @@
     "author": "plylrnsdy",
     "description": "Show different icon for different file type in file tree.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
-    "platforms": ["win32", "linux"]
+    "platforms": [
+      "win32",
+      "linux"
+    ]
   },
   {
     "id": "typora-community-plugin.footnotes",
@@ -69,7 +100,11 @@
     "author": "plylrnsdy",
     "description": "Footnote marker suggestion & Re-index the numerical footnotes.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.front-matter",
@@ -77,7 +112,11 @@
     "author": "plylrnsdy",
     "description": "Auto edit front matter, support created-time & updated-time.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.image-location",
@@ -85,7 +124,11 @@
     "author": "plylrnsdy",
     "description": "Resolve image's location relative to vault's root.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.image-viewer",
@@ -93,7 +136,11 @@
     "author": "plylrnsdy",
     "description": "View all the images in the current Markdown.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.markmap",
@@ -101,7 +148,11 @@
     "author": "plylrnsdy",
     "description": "Use Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.note-refactor",
@@ -109,7 +160,10 @@
     "author": "plylrnsdy",
     "description": "Extract selection to new file.",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
-    "platforms": ["win32", "linux"]
+    "platforms": [
+      "win32",
+      "linux"
+    ]
   },
   {
     "id": "typora-community-plugin.note-snippets",
@@ -117,7 +171,11 @@
     "author": "plylrnsdy",
     "description": "Use slash command to autocomplete note snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.styled-text",
@@ -125,7 +183,11 @@
     "author": "plylrnsdy",
     "description": "Decorate the text matching RegExp.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.tag",
@@ -133,7 +195,11 @@
     "author": "plylrnsdy",
     "description": "Support tag like `#tag`.",
     "repo": "typora-community-plugin/typora-plugin-tag",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.templater",
@@ -141,7 +207,11 @@
     "author": "plylrnsdy",
     "description": "Create note by templater.",
     "repo": "typora-community-plugin/typora-plugin-templater",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.trigger",
@@ -149,7 +219,11 @@
     "author": "plylrnsdy",
     "description": "When the event occurs, commands are executed automatically.",
     "repo": "typora-community-plugin/typora-plugin-trigger",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.wavedrom",
@@ -157,7 +231,11 @@
     "author": "plylrnsdy",
     "description": "Use WaveDrom in Typora",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.wikilink",
@@ -165,7 +243,10 @@
     "author": "plylrnsdy",
     "description": "Support wikilink like `[[wikilink]]`.",
     "repo": "typora-community-plugin/typora-plugin-wikilink",
-    "platforms": ["win32", "linux"]
+    "platforms": [
+      "win32",
+      "linux"
+    ]
   },
   {
     "id": "typora-community-plugin.md-padding",
@@ -173,15 +254,23 @@
     "author": "SukiEva",
     "description": "Format Markdown content with padding.",
     "repo": "SukiEva/typora-plugin-md-padding",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
-    {
+  {
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
     "description": "Push your Markdown files from Typora directly to a GitHub repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-plugin-markmap-plus",
@@ -189,7 +278,11 @@
     "author": "util6",
     "description": "Use Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
-    "platforms": ["win32", "linux", "darwin"]
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   },
   {
     "id": "typora-community-plugin.git-sync",
@@ -197,6 +290,21 @@
     "description": "Git sync plugin for typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
-    "platforms": ["win32", "linux"]
+    "platforms": [
+      "win32",
+      "linux"
+    ]
+  },
+  {
+    "id": "typora-community-plugin.hide-assets-folder",
+    "name": "Hide Assets Folder",
+    "author": "RunwangGuo",
+    "description": "Hide folders ending with .assets in Typora sidebar.",
+    "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
   }
 ]
