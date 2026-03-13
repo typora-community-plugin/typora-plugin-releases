@@ -29,13 +29,13 @@
     "1.1.0": 26,
     "1.0.1": 12,
     "1.0.0": 9,
-    "downloads": 228,
+    "downloads": 229,
     "updated": 1756908420000,
     "1.1.2": 17,
     "1.1.3": 97,
     "size": 2152,
     "1.1.4": 2,
-    "1.1.5": 55
+    "1.1.5": 56
   },
   "typora-community-plugin.collapsible-section": {
     "1.4.1": 16,
@@ -44,7 +44,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 970,
+    "downloads": 977,
     "updated": 1763982936000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -55,15 +55,15 @@
     "1.8.3": 90,
     "1.8.4": 65,
     "1.9.0": 19,
-    "1.9.2": 174
+    "1.9.2": 181
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
-    "downloads": 404,
+    "downloads": 408,
     "updated": 1760342982000,
     "size": 12589,
     "1.0.2": 195,
-    "1.0.4": 130
+    "1.0.4": 134
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
@@ -112,13 +112,13 @@
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 224,
+    "downloads": 226,
     "updated": 1757254714000,
     "1.0.2": 35,
     "1.0.0": 4,
     "1.0.3": 108,
     "size": 15985,
-    "1.0.4": 77
+    "1.0.4": 79
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 85,
@@ -146,13 +146,13 @@
     "1.0.2": 9,
     "1.0.1": 3,
     "1.0.0": 6,
-    "downloads": 251,
+    "downloads": 256,
     "updated": 1724488072000,
     "1.1.4": 6,
     "1.1.3": 6,
     "1.1.2": 4,
     "1.1.1": 5,
-    "1.1.5": 151,
+    "1.1.5": 156,
     "size": 3862
   },
   "typora-community-plugin.styled-text": {
@@ -185,16 +185,16 @@
   },
   "typora-community-plugin.trigger": {
     "size": 2437,
-    "1.0.0": 51,
-    "downloads": 51,
+    "1.0.0": 52,
+    "downloads": 52,
     "updated": 1746532996000
   },
   "typora-community-plugin.wavedrom": {
     "1.0.0": 63,
-    "downloads": 107,
+    "downloads": 108,
     "updated": 1748956229000,
     "size": 15877,
-    "1.1.0": 44
+    "1.1.0": 45
   },
   "typora-community-plugin.wikilink": {
     "1.1.7": 64,
@@ -256,8 +256,8 @@
   },
   "typora-community-plugin.hide-assets-folder": {
     "size": 955,
-    "downloads": 1,
+    "downloads": 2,
     "updated": 1772808043000,
-    "1.0.0": 1
+    "1.0.0": 2
   }
 }
