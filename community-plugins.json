@@ -184,7 +184,7 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
-    "id": "typora-plugin-markmap-plus",
+    "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
     "description": "Use Markmap in Typora.",
