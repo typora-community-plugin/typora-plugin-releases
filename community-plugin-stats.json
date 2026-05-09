@@ -1,7 +1,7 @@
 {
   "typora-community-plugin.abcjs": {
-    "1.1.0": 167,
-    "downloads": 167,
+    "1.1.0": 168,
+    "downloads": 168,
     "updated": 1717249655000,
     "size": 140038
   },
@@ -10,19 +10,19 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 506,
+    "downloads": 507,
     "updated": 1725513790000,
-    "1.1.3": 332,
+    "1.1.3": 333,
     "size": 2414
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 189,
     "1.0.1": 24,
     "1.0.0": 10,
-    "downloads": 787,
+    "downloads": 789,
     "updated": 1729263843000,
     "size": 1358,
-    "1.1.1": 564
+    "1.1.1": 566
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
@@ -44,7 +44,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 1103,
+    "downloads": 1104,
     "updated": 1763982936000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -55,15 +55,15 @@
     "1.8.3": 90,
     "1.8.4": 65,
     "1.9.0": 19,
-    "1.9.2": 306
+    "1.9.2": 307
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 79,
-    "downloads": 473,
+    "downloads": 474,
     "updated": 1760342982000,
     "size": 12589,
     "1.0.2": 195,
-    "1.0.4": 199
+    "1.0.4": 200
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 15,
@@ -74,9 +74,9 @@
     "size": 1705
   },
   "typora-community-plugin.file-icon": {
-    "1.0.1": 272,
+    "1.0.1": 273,
     "1.0.0": 5,
-    "downloads": 277,
+    "downloads": 278,
     "updated": 1692626134000,
     "size": 1711
   },
@@ -113,17 +113,17 @@
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 264,
+    "downloads": 265,
     "updated": 1757254714000,
     "1.0.2": 35,
     "1.0.0": 4,
     "1.0.3": 108,
     "size": 15985,
-    "1.0.4": 117
+    "1.0.4": 118
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 85,
-    "downloads": 347,
+    "downloads": 348,
     "updated": 1757231328000,
     "size": 920176,
     "1.1.0": 9,
@@ -133,7 +133,7 @@
     "1.2.1": 5,
     "1.2.0": 2,
     "1.1.4": 4,
-    "1.2.2": 129
+    "1.2.2": 130
   },
   "typora-community-plugin.note-refactor": {
     "1.0.0": 72,
@@ -179,12 +179,12 @@
   "typora-community-plugin.templater": {
     "size": 2873,
     "1.0.0": 5,
-    "downloads": 176,
+    "downloads": 177,
     "updated": 1761994903000,
     "1.0.2": 1,
     "1.0.3": 40,
     "1.0.4": 63,
-    "1.1.0": 65,
+    "1.1.0": 66,
     "1.0.5": 2
   },
   "typora-community-plugin.trigger": {
