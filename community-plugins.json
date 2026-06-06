@@ -120,6 +120,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.statistics",
+    "name": "Statistics",
+    "author": "plylrnsdy",
+    "description": "Display document statistics.",
+    "repo": "typora-community-plugin/typora-plugin-statistics",
+    "platforms": ["win32", "linux"]
+  },
+  {
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
