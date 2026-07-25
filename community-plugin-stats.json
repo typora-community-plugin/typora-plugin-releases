@@ -11,20 +11,20 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 570,
+    "downloads": 571,
     "updated": 1725513790000,
-    "1.1.3": 396,
+    "1.1.3": 397,
     "size": 2414
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 191,
     "1.0.1": 24,
     "1.0.0": 10,
-    "downloads": 907,
+    "downloads": 910,
     "updated": 1783359542000,
     "size": 2181,
     "1.1.1": 656,
-    "1.2.0": 26
+    "1.2.0": 29
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
@@ -47,7 +47,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 1303,
+    "downloads": 1305,
     "updated": 1783360506000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -59,16 +59,16 @@
     "1.8.4": 65,
     "1.9.0": 22,
     "1.9.2": 411,
-    "1.13.0": 29,
+    "1.13.0": 31,
     "1.12.0": 63
   },
   "typora-community-plugin.code-folding": {
     "1.0.0": 81,
-    "downloads": 544,
+    "downloads": 545,
     "updated": 1760342982000,
     "size": 12589,
     "1.0.2": 195,
-    "1.0.4": 268
+    "1.0.4": 269
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 17,
@@ -90,7 +90,7 @@
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 236,
+    "downloads": 237,
     "updated": 1783342072000,
     "1.1.1": 115,
     "1.1.0": 3,
@@ -98,7 +98,7 @@
     "1.2.1": 4,
     "1.2.2": 73,
     "1.2.3": 18,
-    "1.2.5": 6,
+    "1.2.5": 7,
     "1.2.4": 11
   },
   "typora-community-plugin.front-matter": {
@@ -134,7 +134,7 @@
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 85,
-    "downloads": 389,
+    "downloads": 390,
     "updated": 1783362902000,
     "size": 920855,
     "1.1.0": 9,
@@ -145,7 +145,7 @@
     "1.2.0": 2,
     "1.1.4": 4,
     "1.2.2": 157,
-    "1.3.0": 11
+    "1.3.0": 12
   },
   "typora-community-plugin.note-refactor": {
     "1.0.0": 75,
@@ -222,10 +222,10 @@
   },
   "typora-community-plugin.wavedrom": {
     "1.0.0": 69,
-    "downloads": 149,
+    "downloads": 150,
     "updated": 1748956229000,
     "size": 15877,
-    "1.1.0": 80
+    "1.1.0": 81
   },
   "typora-community-plugin.wikilink": {
     "1.1.7": 64,
