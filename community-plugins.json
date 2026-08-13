@@ -222,6 +222,14 @@
     "description": "Hide folders ending with .assets in Typora sidebar.",
     "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "n7tequila.typora-plugin-plantuml",
+    "name": "PlantUML",
+    "author": "n7tequila",
+    "description": "Preview PlantUML code blocks in Typora.",
+    "repo": "n7tequila/typora-plugin-plantuml",
+    "platforms": ["win32", "linux", "darwin"]
   }
 
 ]
