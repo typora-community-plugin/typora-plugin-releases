@@ -40,6 +40,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.chat",
+    "name": "Chat",
+    "author": "plylrnsdy",
+    "description": "Chat about your note with AI.",
+    "repo": "typora-community-plugin/typora-plugin-chat",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
