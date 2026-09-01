@@ -1,0 +1,162 @@
+# Translate community-plugins.json description into zh-cn and de using an LLM.
+# Runs only when community-plugins.json changes on push to the default branch.
+
+name: Translate plugins
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "community-plugins.json"
+  workflow_dispatch:
+
+jobs:
+  translate:
+    if: github.repository == 'typora-community-plugin/typora-plugin-releases'
+    runs-on: ubuntu-latest
+    env:
+      # Override in repo settings (Secrets & variables):
+      LLM_BASE_URL: "https://api.siliconflow.cn/v1"   # e.g. https://api.deepseek.com/v1, http://host:port/v1
+      LLM_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}       # required
+      LLM_MODEL: "deepseek-ai/DeepSeek-V3.2"                      # any chat model served by the endpoint
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check community-plugins.json changed
+        id: check
+        run: |
+          BASE="${{ github.event.before }}"
+          if [ "$BASE" = "0000000000000000000000000000000000000000" ] || [ -z "$BASE" ]; then
+            BASE=$(git rev-parse HEAD~1 2>/dev/null || git hash-object -t tree /dev/null)
+          fi
+          if git diff --name-only "$BASE" HEAD | grep -q '^community-plugins\.json$'; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Translate descriptions via LLM
+        if: steps.check.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          set -euo pipefail
+          : "${LLM_BASE_URL:?set repo secret/env LLM_BASE_URL}"
+          : "${LLM_API_KEY:?set repo secret LLM_API_KEY}"
+          : "${LLM_MODEL:?set repo env LLM_MODEL}"
+
+          node <<'NODEEOF'
+          const fs = require('fs');
+          const https = require('https');
+          const http = require('http');
+
+          const BASE_URL = process.env.LLM_BASE_URL.replace(/\/+$/, '');
+          const API_KEY  = process.env.LLM_API_KEY;
+          const MODEL    = process.env.LLM_MODEL;
+
+          function post(path, body) {
+            return new Promise((resolve, reject) => {
+              const url = new URL(BASE_URL + path);
+              const lib = url.protocol === 'http:' ? http : https;
+              const payload = JSON.stringify(body);
+              const req = lib.request(url, {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${API_KEY}`,
+                  'Content-Length': Buffer.byteLength(payload),
+                },
+              }, res => {
+                let data = '';
+                res.on('data', c => data += c);
+                res.on('end', () => {
+                  if (res.statusCode < 200 || res.statusCode >= 300) {
+                    return reject(new Error(`LLM HTTP ${res.statusCode}: ${data.slice(0, 500)}`));
+                  }
+                  try { resolve(JSON.parse(data)); } catch (e) { reject(e); }
+                });
+              });
+              req.on('error', reject);
+              req.write(payload);
+              req.end();
+            });
+          }
+
+          function extractJson(text) {
+            const t = String(text).trim();
+            try { return JSON.parse(t); } catch (_) {}
+            // Strip markdown code fences if the model wrapped them.
+            let m = t.match(/```(?:json)?\s*([\s\S]*?)```/i);
+            if (m) { const inner = m[1].trim(); try { return JSON.parse(inner); } catch (_) {} }
+            // Fall back to the first balanced {...} object.
+            const start = t.indexOf('{');
+            if (start >= 0) {
+              let depth = 0, inStr = false, esc = false;
+              for (let i = start; i < t.length; i++) {
+                const ch = t[i];
+                if (inStr) {
+                  if (esc) esc = false;
+                  else if (ch === '\\') esc = true;
+                  else if (ch === '"') inStr = false;
+                  continue;
+                }
+                if (ch === '"') inStr = true;
+                else if (ch === '{') depth++;
+                else if (ch === '}') { depth--; if (depth === 0) return JSON.parse(t.slice(start, i + 1)); }
+              }
+            }
+            throw new Error('no JSON object found in LLM response');
+          }
+
+          async function translateBatch(items, langName) {
+            const sys = 'You are a professional translator. You will be given a JSON array of objects, each with an "id" and a "description". Translate every "description" into ' +
+              langName + '. Reply with ONLY one valid JSON object mapping each id to its translated description string (no other keys, no explanations, no markdown). Keep the exact same ids.';
+            const user = JSON.stringify(items);
+            const res = await post('/chat/completions', {
+              model: MODEL,
+              messages: [
+                { role: 'system', content: sys },
+                { role: 'user',   content: user },
+              ],
+              temperature: 0.3,
+            });
+            const out = (res.choices && res.choices[0] && res.choices[0].message && res.choices[0].message.content || '').trim();
+            if (!out) throw new Error('empty translation response');
+            return extractJson(out);
+          }
+
+          (async () => {
+            const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
+            if (!Array.isArray(plugins)) throw new Error('community-plugins.json is not an array');
+
+            for (const [lang, file] of [['zh-cn', 'community-plugins.zh-cn.json'], ['de', 'community-plugins.de.json']]) {
+              const langName = lang === 'zh-cn' ? 'Simplified Chinese (中文)' : 'German';
+              console.log(`Translating ${plugins.length} descriptions -> ${file}`);
+              const items = plugins.filter(p => p.description && typeof p.description === 'string')
+                .map(p => ({ id: p.id, description: p.description }));
+              const mapping = await translateBatch(items, langName);
+              for (const p of plugins) {
+                if (!p.description || typeof p.description !== 'string') continue;
+                const t = String(mapping[p.id] ?? '').trim();
+                if (!t) throw new Error(`missing translation for ${p.id}`);
+                p[lang] = t;
+              }
+              fs.writeFileSync(file, JSON.stringify(plugins, null, 2) + '\n', 'utf8');
+            }
+
+            console.log('Translation done.');
+          })().catch(e => { console.error(e); process.exit(1); });
+          NODEEOF
+
+      - name: Commit and push translations
+        if: steps.check.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          set -euo pipefail
+          git config --local user.name  "Typora Plugin Bot"
+          git config --local user.email "tcp-bot@outlook.com"
+
+          if ! git add community-plugins.zh-cn.json community-plugins.de.json; then exit 1; fi
+          if git diff --cached --quiet; then
+            echo "No translation changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: translate plugin descriptions (by Github Actions)"
+          git push
