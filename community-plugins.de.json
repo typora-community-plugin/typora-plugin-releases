@@ -1,0 +1,431 @@
+[
+  {
+    "id": "typora-community-plugin.abcjs",
+    "name": "ABC Music Notation",
+    "author": "plylrnsdy",
+    "description": "Use ABC music notation in codeblock.",
+    "repo": "typora-community-plugin/typora-plugin-abcjs",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在代码块中使用ABC音乐符号。",
+    "de": "Verwenden Sie ABC-Musiknotation in Codeblöcken."
+  },
+  {
+    "id": "typora-community-plugin.callout",
+    "name": "Callout",
+    "author": "plylrnsdy",
+    "description": "Support Obsidian-like Callout `> [!type]`.",
+    "repo": "typora-community-plugin/typora-plugin-callout",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "支持类似Obsidian的标注 `> [!type]`。",
+    "de": "Unterstützt Obsidian-ähnliche Callouts `> [!type]`."
+  },
+  {
+    "id": "typora-community-plugin.codeblock-copy-button",
+    "name": "Codeblock Copy Button",
+    "author": "plylrnsdy",
+    "description": "Add a copy button to each codeblock's top-right corner.",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在每个代码块的右上角添加复制按钮。",
+    "de": "Fügt eine Kopier-Schaltfläche in die obere rechte Ecke jedes Codeblocks ein."
+  },
+  {
+    "id": "typora-community-plugin.codeblock-highlight-mapper",
+    "name": "Codeblock Highlight Mapper",
+    "author": "plylrnsdy",
+    "description": "Map language A to language B for highlighting it.",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "将语言A映射到语言B以进行高亮显示。",
+    "de": "Ordnet Sprache A Sprache B für die Syntaxhervorhebung zu."
+  },
+  {
+    "id": "typora-community-plugin.collapsible-section",
+    "name": "Collapsible Section",
+    "author": "plylrnsdy",
+    "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table, Quoteblock, Callout.",
+    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注。",
+    "de": "Markdown-Abschnitte ein-/ausklappen. Unterstützt Überschriften, verschachtelte Listen, Codeblöcke, Tabellen, Zitatblöcke und Callouts."
+  },
+  {
+    "id": "typora-community-plugin.chat",
+    "name": "Chat",
+    "author": "plylrnsdy",
+    "description": "Chat about your note with AI.",
+    "repo": "typora-community-plugin/typora-plugin-chat",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "与AI讨论你的笔记。",
+    "de": "Chatten Sie über Ihre Notizen mit KI."
+  },
+  {
+    "id": "typora-community-plugin.code-folding",
+    "name": "Code Folding",
+    "author": "plylrnsdy",
+    "description": "Make your codes foldable.",
+    "repo": "typora-community-plugin/typora-plugin-code-folding",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "使你的代码可折叠。",
+    "de": "Macht Ihren Code einklappbar."
+  },
+  {
+    "id": "typora-community-plugin.darkmode",
+    "name": "Dark Mode",
+    "author": "plylrnsdy",
+    "description": "General dark mode for any theme.",
+    "repo": "typora-community-plugin/typora-plugin-darkmode",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "适用于任何主题的通用深色模式。",
+    "de": "Allgemeiner Dunkelmodus für jedes Theme."
+  },
+  {
+    "id": "typora-community-plugin.file-icon",
+    "name": "File Icon",
+    "author": "plylrnsdy",
+    "description": "Show different icon for different file type in file tree.",
+    "repo": "typora-community-plugin/typora-plugin-file-icon",
+    "platforms": [
+      "win32",
+      "linux"
+    ],
+    "zh-cn": "在文件树中为不同文件类型显示不同的图标。",
+    "de": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an."
+  },
+  {
+    "id": "typora-community-plugin.footnotes",
+    "name": "Footnotes",
+    "author": "plylrnsdy",
+    "description": "Footnote marker suggestion & Re-index the numerical footnotes.",
+    "repo": "typora-community-plugin/typora-plugin-footnotes",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "脚注标记建议和重新索引数字脚注。",
+    "de": "Fußnoten-Marker-Vorschläge & Neuindizierung der numerischen Fußnoten."
+  },
+  {
+    "id": "typora-community-plugin.front-matter",
+    "name": "Front Matter",
+    "author": "plylrnsdy",
+    "description": "Auto edit front matter, support created-time & updated-time.",
+    "repo": "typora-community-plugin/typora-plugin-front-matter",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "自动编辑前置元数据，支持创建时间和更新时间。",
+    "de": "Front Matter automatisch bearbeiten, unterstützt Erstellungszeit & Aktualisierungszeit."
+  },
+  {
+    "id": "typora-community-plugin.image-location",
+    "name": "Image Location",
+    "author": "plylrnsdy",
+    "description": "Resolve image's location relative to vault's root.",
+    "repo": "typora-community-plugin/typora-plugin-image-location",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "解析图片相对于库根目录的位置。",
+    "de": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf."
+  },
+  {
+    "id": "typora-community-plugin.image-viewer",
+    "name": "Image Viewer",
+    "author": "plylrnsdy",
+    "description": "View all the images in the current Markdown.",
+    "repo": "typora-community-plugin/typora-plugin-image-viewer",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "查看当前Markdown中的所有图片。",
+    "de": "Zeigt alle Bilder im aktuellen Markdown-Dokument an."
+  },
+  {
+    "id": "typora-community-plugin.markmap",
+    "name": "Markmap",
+    "author": "plylrnsdy",
+    "description": "Use Markmap in Typora.",
+    "repo": "typora-community-plugin/typora-plugin-markmap",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在Typora中使用Markmap。",
+    "de": "Verwenden Sie Markmap in Typora."
+  },
+  {
+    "id": "typora-community-plugin.note-refactor",
+    "name": "Note Refactor",
+    "author": "plylrnsdy",
+    "description": "Extract selection to new file.",
+    "repo": "typora-community-plugin/typora-plugin-note-refactor",
+    "platforms": [
+      "win32",
+      "linux"
+    ],
+    "zh-cn": "将选中内容提取到新文件。",
+    "de": "Extrahiert eine Auswahl in eine neue Datei."
+  },
+  {
+    "id": "typora-community-plugin.note-snippets",
+    "name": "Note Snippets",
+    "author": "plylrnsdy",
+    "description": "Use slash command to autocomplete note snippets.",
+    "repo": "typora-community-plugin/typora-plugin-note-snippets",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "使用斜杠命令自动补全笔记片段。",
+    "de": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen."
+  },
+  {
+    "id": "typora-community-plugin.statistics",
+    "name": "Statistics",
+    "author": "plylrnsdy",
+    "description": "Display document statistics.",
+    "repo": "typora-community-plugin/typora-plugin-statistics",
+    "platforms": [
+      "win32",
+      "linux"
+    ],
+    "zh-cn": "显示文档统计信息。",
+    "de": "Zeigt Dokumentstatistiken an."
+  },
+  {
+    "id": "typora-community-plugin.styled-text",
+    "name": "Styled Text",
+    "author": "plylrnsdy",
+    "description": "Decorate the text matching RegExp.",
+    "repo": "typora-community-plugin/typora-plugin-styled-text",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "装饰匹配正则表达式的文本。",
+    "de": "Dekoriert den Text, der auf den RegExp-Ausdruck passt."
+  },
+  {
+    "id": "typora-community-plugin.tag",
+    "name": "Tag",
+    "author": "plylrnsdy",
+    "description": "Support tag like `#tag`.",
+    "repo": "typora-community-plugin/typora-plugin-tag",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "支持类似 `#tag` 的标签。",
+    "de": "Unterstützt Tags wie `#tag`."
+  },
+  {
+    "id": "typora-community-plugin.templater",
+    "name": "Templater",
+    "author": "plylrnsdy",
+    "description": "Create note by templater.",
+    "repo": "typora-community-plugin/typora-plugin-templater",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "通过模板创建笔记。",
+    "de": "Erstellt Notizen mit Vorlagen."
+  },
+  {
+    "id": "typora-community-plugin.trigger",
+    "name": "Trigger",
+    "author": "plylrnsdy",
+    "description": "When the event occurs, commands are executed automatically.",
+    "repo": "typora-community-plugin/typora-plugin-trigger",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "当事件发生时，自动执行命令。",
+    "de": "Wenn das Ereignis eintritt, werden Befehle automatisch ausgeführt."
+  },
+  {
+    "id": "typora-community-plugin.wavedrom",
+    "name": "WaveDrom",
+    "author": "plylrnsdy",
+    "description": "Use WaveDrom in Typora",
+    "repo": "typora-community-plugin/typora-plugin-wavedrom",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在Typora中使用WaveDrom。",
+    "de": "Verwenden Sie WaveDrom in Typora."
+  },
+  {
+    "id": "typora-community-plugin.wikilink",
+    "name": "Wiki Link",
+    "author": "plylrnsdy",
+    "description": "Support wikilink like `[[wikilink]]`.",
+    "repo": "typora-community-plugin/typora-plugin-wikilink",
+    "platforms": [
+      "win32",
+      "linux"
+    ],
+    "zh-cn": "支持类似 `[[wikilink]]` 的维基链接。",
+    "de": "Unterstützt Wikilinks wie `[[wikilink]]`."
+  },
+  {
+    "id": "typora-community-plugin.md-padding",
+    "name": "Markdown Padding",
+    "author": "SukiEva",
+    "description": "Format Markdown content with padding.",
+    "repo": "SukiEva/typora-plugin-md-padding",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "使用内边距格式化Markdown内容。",
+    "de": "Formatiert Markdown-Inhalte mit Abständen."
+  },
+  {
+    "id": "typora-community-plugin.githubpusher",
+    "name": "Github Pusher",
+    "author": "Veik",
+    "description": "Push your Markdown files from Typora directly to a GitHub repository.",
+    "repo": "Veikkkk/typora-plugin-push-to-github",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "将你的Markdown文件直接从Typora推送到GitHub仓库。",
+    "de": "Schiebt Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository."
+  },
+  {
+    "id": "util6.markmapplus",
+    "name": "Markmap Plus",
+    "author": "util6",
+    "description": "Use Markmap in Typora.",
+    "repo": "util6/typora-plugin-markmap-plus",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在Typora中使用Markmap。",
+    "de": "Verwenden Sie Markmap in Typora."
+  },
+  {
+    "id": "typora-community-plugin.git-sync",
+    "name": "Git Sync",
+    "description": "Git sync plugin for typora.",
+    "author": "tai-jing-jian",
+    "repo": "tai-jing-jian/typora-plugin-git-sync",
+    "platforms": [
+      "win32",
+      "linux"
+    ],
+    "zh-cn": "Typora的Git同步插件。",
+    "de": "Git-Synchronisierungs-Plugin für Typora."
+  },
+  {
+    "id": "typora-community-plugin.updated-footer",
+    "name": "Updated Footer",
+    "author": "Runwang Guo",
+    "description": "Show a stable last-updated footer at the bottom of editor.",
+    "repo": "RunwangGuo/typora-plugin-updated-footer",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在编辑器底部显示稳定的最后更新时间页脚。",
+    "de": "Zeigt eine stabile 'Zuletzt aktualisiert'-Fußzeile am unteren Rand des Editors an."
+  },
+  {
+    "id": "typora-community-plugin.hide-assets-folder",
+    "name": "Hide Assets Folder",
+    "author": "RunwangGuo",
+    "description": "Hide folders ending with .assets in Typora sidebar.",
+    "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在Typora侧边栏中隐藏以.assets结尾的文件夹。",
+    "de": "Versteckt Ordner, die auf .assets enden, in der Typora-Seitenleiste."
+  },
+  {
+    "id": "n7tequila.typora-plugin-plantuml",
+    "name": "PlantUML",
+    "author": "n7tequila",
+    "description": "Preview PlantUML code blocks in Typora.",
+    "repo": "n7tequila/typora-plugin-plantuml",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "在Typora中预览PlantUML代码块。",
+    "de": "PlantUML-Codeblöcke in Typora in der Vorschau anzeigen."
+  },
+  {
+    "id": "you.search",
+    "name": "You.com Search",
+    "author": "You.com",
+    "description": "Add You.com web search capabilities to Typora for research and content creation.",
+    "repo": "mouse-value-add/typora-plugin-youcom-search",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ],
+    "zh-cn": "为Typora添加You.com网络搜索功能，用于研究和内容创作。",
+    "de": "Fügt Typora You.com-Websuche-Funktionen für Recherche und Inhaltserstellung hinzu."
+  }
+]
