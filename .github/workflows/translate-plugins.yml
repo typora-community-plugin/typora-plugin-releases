@@ -127,19 +127,24 @@ jobs:
             const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
             if (!Array.isArray(plugins)) throw new Error('community-plugins.json is not an array');
 
+            // Build the source (English) list once, before any mutation.
+            const items = plugins.filter(p => p.description && typeof p.description === 'string')
+              .map(p => ({ id: p.id, description: p.description }));
+
             for (const [lang, file] of [['zh-cn', 'community-plugins.zh-cn.json'], ['de', 'community-plugins.de.json']]) {
               const langName = lang === 'zh-cn' ? 'Simplified Chinese (中文)' : 'German';
-              console.log(`Translating ${plugins.length} descriptions -> ${file}`);
-              const items = plugins.filter(p => p.description && typeof p.description === 'string')
-                .map(p => ({ id: p.id, description: p.description }));
+              console.log(`Translating ${items.length} descriptions -> ${file}`);
+
+              // Start each language from the original English array so languages never feed into each other.
+              const translated = JSON.parse(JSON.stringify(plugins));
+              const byId = new Map(translated.map(p => [p.id, p]));
               const mapping = await translateBatch(items, langName);
-              for (const p of plugins) {
-                if (!p.description || typeof p.description !== 'string') continue;
-                const t = String(mapping[p.id] ?? '').trim();
-                if (!t) throw new Error(`missing translation for ${p.id}`);
-                p[lang] = t;
+              for (const it of items) {
+                const t = String(mapping[it.id] ?? '').trim();
+                if (!t) throw new Error(`missing translation for ${it.id}`);
+                byId.get(it.id).description = t;
               }
-              fs.writeFileSync(file, JSON.stringify(plugins, null, 2) + '\n', 'utf8');
+              fs.writeFileSync(file, JSON.stringify(translated, null, 2) + '\n', 'utf8');
             }
 
             console.log('Translation done.');
