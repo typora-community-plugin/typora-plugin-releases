@@ -20,7 +20,9 @@ jobs:
       LLM_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}       # required
       LLM_MODEL: "deepseek-ai/DeepSeek-V3.2"                      # any chat model served by the endpoint
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Check community-plugins.json changed
         id: check
