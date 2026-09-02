@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
-    "description": "Fügt eine Kopierschaltfläche in der oberen rechten Ecke jedes Codeblocks hinzu.",
+    "description": "Fügt eine Kopier-Schaltfläche in der oberen rechten Ecke jedes Codeblocks hinzu.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
     "platforms": [
       "win32",
@@ -39,7 +39,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "Sprache A auf Sprache B für die Syntaxhervorhebung abbilden.",
+    "description": "Ordnet Sprache A Sprache B für die Hervorhebung zu.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Unterhalten Sie sich mit KI über Ihre Notizen.",
+    "description": "Chatten Sie über Ihre Notizen mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Macht Ihren Code faltbar.",
+    "description": "Macht Ihre Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -99,7 +99,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt unterschiedliche Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen in der Dateibaumansicht an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -110,7 +110,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnotenmarker-Vorschläge & Fußnoten numerisch neu indizieren.",
+    "description": "Fußnotenmarker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Tresors auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -170,7 +170,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "Auswahl in eine neue Datei extrahieren.",
+    "description": "Extrahiert die Auswahl in eine neue Datei.",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle zur automatischen Vervollständigung von Notiz-Snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -204,7 +204,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Text dekoriert, der mit RegExp übereinstimmt.",
+    "description": "Dekoriert den Text, der auf den RegExp-Ausdruck passt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -228,7 +228,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Notizen mit Vorlagen erstellen.",
+    "description": "Erstellt Notizen mit Vorlagen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -275,7 +275,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Markdown-Inhalt mit Abständen formatieren.",
+    "description": "Formatiert Markdown-Inhalte mit Abständen.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -287,7 +287,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
+    "description": "Überträgt Ihre Markdown-Dateien direkt aus Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -310,7 +310,7 @@
   {
     "id": "typora-community-plugin.git-sync",
     "name": "Git Sync",
-    "description": "Git-Sync-Plugin für Typora.",
+    "description": "Git-Synchronisierungs-Plugin für Typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": [
@@ -346,7 +346,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
+    "description": "PlantUML-Codeblöcke in Typora anzeigen.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",
@@ -360,6 +360,18 @@
     "author": "You.com",
     "description": "Fügt Typora You.com-Websuchfunktionen für Recherche und Inhaltserstellung hinzu.",
     "repo": "mouse-value-add/typora-plugin-youcom-search",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "n7tequila.typora-plugin-splitwindow",
+    "name": "Split Window",
+    "author": "n7tequila",
+    "description": "Teilt das aktuelle Typora-Dokument in unabhängig scrollbare Bereiche auf.",
+    "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
       "linux",

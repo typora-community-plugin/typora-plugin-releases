@@ -15,7 +15,7 @@
     "id": "typora-community-plugin.callout",
     "name": "Callout",
     "author": "plylrnsdy",
-    "description": "支持类似Obsidian的标注块 `> [!type]`。",
+    "description": "支持Obsidian风格的标注块 `> [!type]`。",
     "repo": "typora-community-plugin/typora-plugin-callout",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论你的笔记内容。",
+    "description": "与AI讨论你的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "使代码可折叠。",
+    "description": "让你的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -122,7 +122,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "自动编辑Front Matter，支持创建时间与更新时间。",
+    "description": "自动编辑Front Matter，支持创建时间和更新时间。",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于仓库根目录的位置。",
+    "description": "解析图片相对于知识库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -216,7 +216,7 @@
     "id": "typora-community-plugin.tag",
     "name": "Tag",
     "author": "plylrnsdy",
-    "description": "支持类似 `#tag` 的标签功能。",
+    "description": "支持类似 `#标签` 的标签功能。",
     "repo": "typora-community-plugin/typora-plugin-tag",
     "platforms": [
       "win32",
@@ -264,7 +264,7 @@
     "id": "typora-community-plugin.wikilink",
     "name": "Wiki Link",
     "author": "plylrnsdy",
-    "description": "支持类似 `[[wikilink]]` 的维基链接。",
+    "description": "支持类似 `[[维基链接]]` 的维基链接。",
     "repo": "typora-community-plugin/typora-plugin-wikilink",
     "platforms": [
       "win32",
@@ -287,7 +287,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将Markdown文件从Typora直接推送到GitHub仓库。",
+    "description": "将你的Markdown文件从Typora直接推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -322,7 +322,7 @@
     "id": "typora-community-plugin.updated-footer",
     "name": "Updated Footer",
     "author": "Runwang Guo",
-    "description": "在编辑器底部显示稳定的最后更新页脚。",
+    "description": "在编辑器底部显示稳定的最后更新时间页脚。",
     "repo": "RunwangGuo/typora-plugin-updated-footer",
     "platforms": [
       "win32",
@@ -360,6 +360,18 @@
     "author": "You.com",
     "description": "为Typora添加You.com网络搜索功能，用于研究和内容创作。",
     "repo": "mouse-value-add/typora-plugin-youcom-search",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "n7tequila.typora-plugin-splitwindow",
+    "name": "Split Window",
+    "author": "n7tequila",
+    "description": "将当前Typora文档拆分为可独立滚动的窗格。",
+    "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
       "linux",
