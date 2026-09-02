@@ -246,6 +246,14 @@
     "description": "Add You.com web search capabilities to Typora for research and content creation.",
     "repo": "mouse-value-add/typora-plugin-youcom-search",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "n7tequila.typora-plugin-splitwindow",
+    "name": "Split Window",
+    "author": "n7tequila",
+    "description": "Split the current Typora document into independently scrollable panes.",
+    "repo": "n7tequila/typora-plugin-splitwindow",
+    "platforms": ["win32", "linux", "darwin"]
   }
 
 ]
