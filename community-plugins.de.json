@@ -24,6 +24,18 @@
     ]
   },
   {
+    "id": "typora-community-plugin.chat",
+    "name": "Chat",
+    "author": "plylrnsdy",
+    "description": "Chatten Sie über Ihre Notiz mit KI.",
+    "repo": "typora-community-plugin/typora-plugin-chat",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
@@ -48,23 +60,11 @@
     ]
   },
   {
-    "id": "typora-community-plugin.collapsible-section",
-    "name": "Collapsible Section",
+    "id": "typora-community-plugin.codeblock-previewer-plus",
+    "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "Markdown-Abschnitte ein-/ausklappen. Unterstützt Überschriften, verschachtelte Listen, Codeblöcke, Tabellen, Zitatblöcke, Callouts.",
-    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
-    "platforms": [
-      "win32",
-      "linux",
-      "darwin"
-    ]
-  },
-  {
-    "id": "typora-community-plugin.chat",
-    "name": "Chat",
-    "author": "plylrnsdy",
-    "description": "Chatten Sie über Ihre Notizen mit KI.",
-    "repo": "typora-community-plugin/typora-plugin-chat",
+    "description": "Öffnet gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
       "linux",
@@ -84,10 +84,22 @@
     ]
   },
   {
+    "id": "typora-community-plugin.collapsible-section",
+    "name": "Collapsible Section",
+    "author": "plylrnsdy",
+    "description": "Markdown-Abschnitte ein-/ausklappen. Unterstützt Überschriften, verschachtelte Listen, Codeblöcke, Tabellen, Zitatblöcke, Callouts.",
+    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "Allgemeiner Dunkelmodus für jedes Theme.",
+    "description": "Allgemeiner Dunkelmodus für jedes Design.",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -99,7 +111,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen in der Dateibaumansicht an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -110,7 +122,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnotenmarker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
+    "description": "Fußnoten-Marker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -181,7 +193,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle zur automatischen Vervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -228,7 +240,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Erstellt Notizen mit Vorlagen.",
+    "description": "Notizen mit Vorlagen erstellen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -287,7 +299,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Überträgt Ihre Markdown-Dateien direkt aus Typora in ein GitHub-Repository.",
+    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -346,7 +358,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "PlantUML-Codeblöcke in Typora anzeigen.",
+    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",

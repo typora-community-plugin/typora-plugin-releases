@@ -24,6 +24,18 @@
     ]
   },
   {
+    "id": "typora-community-plugin.chat",
+    "name": "Chat",
+    "author": "plylrnsdy",
+    "description": "与AI讨论你的笔记内容。",
+    "repo": "typora-community-plugin/typora-plugin-chat",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
@@ -39,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以进行语法高亮。",
+    "description": "将语言A映射到语言B以实现语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -48,23 +60,11 @@
     ]
   },
   {
-    "id": "typora-community-plugin.collapsible-section",
-    "name": "Collapsible Section",
+    "id": "typora-community-plugin.codeblock-previewer-plus",
+    "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
-    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
-    "platforms": [
-      "win32",
-      "linux",
-      "darwin"
-    ]
-  },
-  {
-    "id": "typora-community-plugin.chat",
-    "name": "Chat",
-    "author": "plylrnsdy",
-    "description": "与AI讨论你的笔记。",
-    "repo": "typora-community-plugin/typora-plugin-chat",
+    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
       "linux",
@@ -75,8 +75,20 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "让你的代码可折叠。",
+    "description": "使代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "typora-community-plugin.collapsible-section",
+    "name": "Collapsible Section",
+    "author": "plylrnsdy",
+    "description": "折叠/展开Markdown区块。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
+    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": [
       "win32",
       "linux",
@@ -87,7 +99,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "为任何主题提供通用深色模式。",
+    "description": "适用于任何主题的通用深色模式。",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -134,7 +146,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于知识库根目录的位置。",
+    "description": "解析图片相对于存储库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -158,7 +170,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "在Typora中使用Markmap。",
+    "description": "在Typora中使用Markmap思维导图。",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -240,7 +252,7 @@
     "id": "typora-community-plugin.trigger",
     "name": "Trigger",
     "author": "plylrnsdy",
-    "description": "当事件发生时自动执行命令。",
+    "description": "事件发生时自动执行命令。",
     "repo": "typora-community-plugin/typora-plugin-trigger",
     "platforms": [
       "win32",
@@ -252,7 +264,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "在Typora中使用WaveDrom。",
+    "description": "在Typora中使用WaveDrom时序图工具。",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -275,7 +287,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "使用内边距格式化Markdown内容。",
+    "description": "为Markdown内容添加边距格式化。",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -287,7 +299,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将你的Markdown文件从Typora直接推送到GitHub仓库。",
+    "description": "将Typora中的Markdown文件直接推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -299,7 +311,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "在Typora中使用Markmap。",
+    "description": "在Typora中使用Markmap思维导图。",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
