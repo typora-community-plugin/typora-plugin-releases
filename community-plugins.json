@@ -16,6 +16,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.chat",
+    "name": "Chat",
+    "author": "plylrnsdy",
+    "description": "Chat about your note with AI.",
+    "repo": "typora-community-plugin/typora-plugin-chat",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
@@ -32,19 +40,11 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
-    "id": "typora-community-plugin.collapsible-section",
-    "name": "Collapsible Section",
+    "id": "typora-community-plugin.codeblock-previewer-plus",
+    "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table, Quoteblock, Callout.",
-    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
-    "platforms": ["win32", "linux", "darwin"]
-  },
-  {
-    "id": "typora-community-plugin.chat",
-    "name": "Chat",
-    "author": "plylrnsdy",
-    "description": "Chat about your note with AI.",
-    "repo": "typora-community-plugin/typora-plugin-chat",
+    "description": "Open rendered codeblock previews (e.g. Mermaid) in a floating window with zoom and drag.",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": ["win32", "linux", "darwin"]
   },
   {
@@ -53,6 +53,14 @@
     "author": "plylrnsdy",
     "description": "Make your codes foldable.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "typora-community-plugin.collapsible-section",
+    "name": "Collapsible Section",
+    "author": "plylrnsdy",
+    "description": "Fold/unfold markdown section. Supports Heading, Nested list, Codeblock, Table, Quoteblock, Callout.",
+    "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": ["win32", "linux", "darwin"]
   },
   {
