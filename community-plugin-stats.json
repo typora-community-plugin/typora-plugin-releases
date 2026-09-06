@@ -50,6 +50,12 @@
     "1.1.5": 93,
     "1.2.1": 14
   },
+  "typora-community-plugin.codeblock-previewer-plus": {
+    "size": 3629,
+    "1.0.1": 4,
+    "downloads": 4,
+    "updated": 1788676689000
+  },
   "typora-community-plugin.code-folding": {
     "1.0.0": 81,
     "downloads": 568,
@@ -318,11 +324,5 @@
     "0.1.2": 2,
     "downloads": 2,
     "updated": 1788359096000
-  },
-  "typora-community-plugin.codeblock-previewer-plus": {
-    "size": 3661,
-    "1.0.1": 4,
-    "downloads": 4,
-    "updated": 1788585977000
   }
 }
