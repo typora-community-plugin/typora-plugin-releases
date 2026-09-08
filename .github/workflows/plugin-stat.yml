@@ -61,6 +61,7 @@ jobs:
                     let version = release.tag_name;
                     let assets = release.assets;
                     let downloads = 0;
+                    let hasAsset = false;
 
                     let publishTs = new Date(release.published_at).getTime();
                     if (publishTs > updated) {
@@ -70,13 +71,14 @@ jobs:
                     for (let asset of assets) {
                       if (asset.name === 'plugin.zip') {
                         downloads = asset.download_count;
+                        hasAsset = true;
 
                         if (updated === publishTs) {
                           stats['size'] = asset.size;
                         }
                       }
                     }
-                    if (downloads) {
+                    if (hasAsset) {
                       stats[version] = downloads;
                     }
                   }
