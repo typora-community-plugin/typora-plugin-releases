@@ -3,7 +3,7 @@
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie ABC-Musiknotation in Codeblöcken.",
+    "description": "Verwende ABC-Musiknotation in Codeblöcken.",
     "repo": "typora-community-plugin/typora-plugin-abcjs",
     "platforms": [
       "win32",
@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Chatten Sie über Ihre Notiz mit KI.",
+    "description": "Chatte über deine Notizen mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -39,7 +39,7 @@
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
-    "description": "Fügt eine Kopier-Schaltfläche in der oberen rechten Ecke jedes Codeblocks hinzu.",
+    "description": "Fügt eine Kopier-Schaltfläche in die obere rechte Ecke jedes Codeblocks ein.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "Ordnet Sprache A Sprache B für die Hervorhebung zu.",
+    "description": "Ordnet Sprache A Sprache B für die Syntaxhervorhebung zu.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "Öffnet gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
+    "description": "Öffnet gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Drag-Funktion.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Macht Ihre Codes faltbar.",
+    "description": "Macht deine Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -99,7 +99,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "Allgemeiner Dunkelmodus für jedes Design.",
+    "description": "Allgemeiner Dunkelmodus für jedes Theme.",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Tresors auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Wurzelverzeichnis des Vaults auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -170,7 +170,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Markmap in Typora.",
+    "description": "Verwende Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -193,7 +193,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwende Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -216,7 +216,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Dekoriert den Text, der auf den RegExp-Ausdruck passt.",
+    "description": "Gestaltet Text, der auf RegExp passt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -240,7 +240,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Notizen mit Vorlagen erstellen.",
+    "description": "Erstellt Notizen mit Vorlagen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -264,7 +264,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie WaveDrom in Typora.",
+    "description": "Verwende WaveDrom in Typora.",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -299,7 +299,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
+    "description": "Übertrage deine Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -311,7 +311,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "Verwenden Sie Markmap in Typora.",
+    "description": "Verwende Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
@@ -322,7 +322,7 @@
   {
     "id": "typora-community-plugin.git-sync",
     "name": "Git Sync",
-    "description": "Git-Synchronisierungs-Plugin für Typora.",
+    "description": "Git-Sync-Plugin für Typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": [
@@ -387,6 +387,16 @@
     "platforms": [
       "win32",
       "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "citizenyolo.chatgpt-details",
+    "name": "ChatGPT Details",
+    "author": "Citizenyolo",
+    "description": "Stellt faltbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
+    "repo": "Citizenyolo/typora-plugin-chatgpt-details",
+    "platforms": [
       "darwin"
     ]
   }
