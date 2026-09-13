@@ -270,6 +270,13 @@
     "description": "Split the current Typora document into independently scrollable panes.",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "citizenyolo.chatgpt-details",
+    "name": "ChatGPT Details",
+    "author": "Citizenyolo",
+    "description": "Restores collapsible nested details blocks in Codex Markdown exports opened in Typora.",
+    "repo": "Citizenyolo/typora-plugin-chatgpt-details",
+    "platforms": ["darwin"]
   }
-
 ]
