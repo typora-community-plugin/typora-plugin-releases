@@ -96,6 +96,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.git",
+    "name": "Git",
+    "author": "plylrnsdy",
+    "description": "A Git sidebar for Typora: view and stage/unstage files.",
+    "repo": "typora-community-plugin/typora-plugin-git",
+    "platforms": ["win32", "linux"]
+  },
+  {
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
@@ -262,14 +270,6 @@
     "description": "Split the current Typora document into independently scrollable panes.",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": ["win32", "linux", "darwin"]
-  },
-  {
-    "id": "citizenyolo.chatgpt-details",
-    "name": "ChatGPT Details",
-    "author": "Citizenyolo",
-    "description": "Restores collapsible nested details blocks in Codex Markdown exports opened in Typora.",
-    "repo": "Citizenyolo/typora-plugin-chatgpt-details",
-    "platforms": ["darwin"]
   }
 
 ]
