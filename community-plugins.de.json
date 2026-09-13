@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Macht Ihre Codeblöcke einklappbar.",
+    "description": "Macht Ihre Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -122,7 +122,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnotenmarker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
+    "description": "Fußnoten-Markierungsvorschläge & Fußnoten mit Zahlen neu indizieren.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -157,7 +157,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Wurzelverzeichnis des Vaults auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
+    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -204,7 +204,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -216,7 +216,7 @@
     "id": "typora-community-plugin.statistics",
     "name": "Statistics",
     "author": "plylrnsdy",
-    "description": "Zeigt Dokumentstatistiken an.",
+    "description": "Dokumentstatistiken anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-statistics",
     "platforms": [
       "win32",
@@ -227,7 +227,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Text dekoriert, der mit RegExp übereinstimmt.",
+    "description": "Text, der auf RegExp passt, dekorieren.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -298,7 +298,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Markdown-Inhalt mit Abständen formatieren.",
+    "description": "Markdown-Inhalt mit Abstand formatieren.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -333,7 +333,7 @@
   {
     "id": "typora-community-plugin.git-sync",
     "name": "Git Sync",
-    "description": "Git-Sync-Plugin für Typora.",
+    "description": "Git-Synchronisierungs-Plugin für Typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": [
@@ -381,7 +381,7 @@
     "id": "you.search",
     "name": "You.com Search",
     "author": "You.com",
-    "description": "Fügt Typora You.com-Websuchfunktionen für Recherche und Inhaltserstellung hinzu.",
+    "description": "Fügt Typora You.com-Websuche-Fähigkeiten für Recherche und Inhaltserstellung hinzu.",
     "repo": "mouse-value-add/typora-plugin-youcom-search",
     "platforms": [
       "win32",
@@ -398,6 +398,16 @@
     "platforms": [
       "win32",
       "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "citizenyolo.chatgpt-details",
+    "name": "ChatGPT Details",
+    "author": "Citizenyolo",
+    "description": "Stellt faltbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
+    "repo": "Citizenyolo/typora-plugin-chatgpt-details",
+    "platforms": [
       "darwin"
     ]
   }

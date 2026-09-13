@@ -3,7 +3,7 @@
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
-    "description": "在代码块中使用ABC音乐记谱法。",
+    "description": "在代码块中使用ABC音乐符号。",
     "repo": "typora-community-plugin/typora-plugin-abcjs",
     "platforms": [
       "win32",
@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论你的笔记。",
+    "description": "与AI讨论您的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "让你的代码可折叠。",
+    "description": "使您的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "折叠/展开Markdown区块。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
+    "description": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "在文件树中为不同文件类型显示不同的图标。",
+    "description": "在文件树中为不同文件类型显示不同图标。",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "自动编辑前置元数据，支持创建时间和更新时间。",
+    "description": "自动编辑Front Matter，支持创建时间和更新时间。",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.git",
     "name": "Git",
     "author": "plylrnsdy",
-    "description": "Typora的Git侧边栏：查看并暂存/取消暂存文件。",
+    "description": "Typora的Git侧边栏：查看和暂存/取消暂存文件。",
     "repo": "typora-community-plugin/typora-plugin-git",
     "platforms": [
       "win32",
@@ -157,7 +157,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于仓库根目录的位置。",
+    "description": "解析图片相对于存储库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -193,7 +193,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "将选中内容提取到新文件。",
+    "description": "将选定内容提取到新文件。",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -227,7 +227,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "为匹配正则表达式的文本添加装饰样式。",
+    "description": "修饰匹配正则表达式的文本。",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -239,7 +239,7 @@
     "id": "typora-community-plugin.tag",
     "name": "Tag",
     "author": "plylrnsdy",
-    "description": "支持类似 `#标签` 的标签功能。",
+    "description": "支持类似 `#tag` 的标签。",
     "repo": "typora-community-plugin/typora-plugin-tag",
     "platforms": [
       "win32",
@@ -310,7 +310,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将你的Markdown文件直接从Typora推送到GitHub仓库。",
+    "description": "将您的Markdown文件从Typora直接推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -345,7 +345,7 @@
     "id": "typora-community-plugin.updated-footer",
     "name": "Updated Footer",
     "author": "Runwang Guo",
-    "description": "在编辑器底部显示稳定的最后更新时间页脚。",
+    "description": "在编辑器底部显示稳定的最后更新页脚。",
     "repo": "RunwangGuo/typora-plugin-updated-footer",
     "platforms": [
       "win32",
@@ -398,6 +398,16 @@
     "platforms": [
       "win32",
       "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "citizenyolo.chatgpt-details",
+    "name": "ChatGPT Details",
+    "author": "Citizenyolo",
+    "description": "在Typora中打开的Codex Markdown导出文件中恢复可折叠的嵌套详情块。",
+    "repo": "Citizenyolo/typora-plugin-chatgpt-details",
+    "platforms": [
       "darwin"
     ]
   }
