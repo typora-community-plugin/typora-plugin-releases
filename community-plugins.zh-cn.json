@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论您的笔记。",
+    "description": "与AI讨论你的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "使您的代码可折叠。",
+    "description": "使你的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "在文件树中为不同文件类型显示不同图标。",
+    "description": "在文件树中为不同文件类型显示不同的图标。",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -122,7 +122,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "脚注标记建议与数字脚注重新索引。",
+    "description": "脚注标记建议和重新索引数字脚注。",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -157,7 +157,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于存储库根目录的位置。",
+    "description": "解析图片相对于仓库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -190,10 +190,22 @@
     ]
   },
   {
+    "id": "typora-community-plugin.mini-outline",
+    "name": "Mini Outline",
+    "author": "plylrnsdy",
+    "description": "在编辑器右侧显示浮动大纲气泡。",
+    "repo": "typora-community-plugin/typora-plugin-mini-outline",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "将选定内容提取到新文件。",
+    "description": "将选中内容提取到新文件。",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -227,7 +239,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "修饰匹配正则表达式的文本。",
+    "description": "装饰符合正则表达式的文本。",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -310,7 +322,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将您的Markdown文件从Typora直接推送到GitHub仓库。",
+    "description": "将你的Markdown文件直接从Typora推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -405,7 +417,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "在Typora中打开的Codex Markdown导出文件中恢复可折叠的嵌套详情块。",
+    "description": "在Typora中打开Codex Markdown导出文件时，恢复可折叠的嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
