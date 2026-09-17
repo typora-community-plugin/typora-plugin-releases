@@ -128,6 +128,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.mini-outline",
+    "name": "Mini Outline",
+    "author": "plylrnsdy",
+    "description": "Displays a floating outline bubble on the right side of the editor.",
+    "repo": "typora-community-plugin/typora-plugin-mini-outline",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
