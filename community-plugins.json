@@ -286,5 +286,13 @@
     "description": "Restores collapsible nested details blocks in Codex Markdown exports opened in Typora.",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": ["darwin"]
+  },
+  {
+    "id": "prisant-labs.outline-view",
+    "name": "Outline View",
+    "author": "Prisant Labs",
+    "description": "A synchronized document outline for Typora's right workspace dock.",
+    "repo": "prisant-labs/typora-plugin-outline-view",
+    "platforms": ["win32", "darwin"]
   }
 ]
