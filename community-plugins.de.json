@@ -3,7 +3,7 @@
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
-    "description": "Verwende ABC-Musiknotation in Codeblöcken.",
+    "description": "Verwenden Sie ABC-Musiknotation in Codeblöcken.",
     "repo": "typora-community-plugin/typora-plugin-abcjs",
     "platforms": [
       "win32",
@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Chatte über deine Notiz mit KI.",
+    "description": "Chatten Sie über Ihre Notizen mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "Ordne Sprache A Sprache B für die Hervorhebung zu.",
+    "description": "Ordnet Sprache A Sprache B für die Hervorhebung zu.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "Öffne gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Drag-Funktion.",
+    "description": "Öffnet gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Mache deine Codes faltbar.",
+    "description": "Macht Ihre Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "Falte/entfalte Markdown-Abschnitte. Unterstützt Überschriften, verschachtelte Listen, Codeblöcke, Tabellen, Zitatblöcke, Callouts.",
+    "description": "Markdown-Abschnitte ein-/ausklappen. Unterstützt Überschriften, verschachtelte Listen, Codeblöcke, Tabellen, Zitatblöcke, Callouts.",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeige verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "Automatisches Bearbeiten von Front Matter, unterstützt Erstellungszeit & Aktualisierungszeit.",
+    "description": "Front Matter automatisch bearbeiten, unterstützt Erstellungszeit & Aktualisierungszeit.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -157,7 +157,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Wurzelverzeichnis des Vaults auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Zeige alle Bilder im aktuellen Markdown an.",
+    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "Verwende Markmap in Typora.",
+    "description": "Verwenden Sie Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -205,7 +205,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "Extrahiere Auswahl in eine neue Datei.",
+    "description": "Extrahiert eine Auswahl in eine neue Datei.",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -216,7 +216,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwende Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -228,7 +228,7 @@
     "id": "typora-community-plugin.statistics",
     "name": "Statistics",
     "author": "plylrnsdy",
-    "description": "Zeige Dokumentstatistiken an.",
+    "description": "Zeigt Dokumentstatistiken an.",
     "repo": "typora-community-plugin/typora-plugin-statistics",
     "platforms": [
       "win32",
@@ -239,7 +239,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Gestalte Text, der auf RegExp passt.",
+    "description": "Dekoriert den Text, der auf den RegExp-Ausdruck passt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -263,7 +263,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Erstelle Notizen mit Vorlagen.",
+    "description": "Erstellt Notizen mit Vorlagen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -287,7 +287,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "Verwende WaveDrom in Typora.",
+    "description": "Verwenden Sie WaveDrom in Typora.",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -310,7 +310,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Formatiere Markdown-Inhalte mit Abstand.",
+    "description": "Formatiert Markdown-Inhalte mit Abständen.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -322,7 +322,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Pushe deine Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
+    "description": "Schiebt Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -334,7 +334,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "Verwende Markmap in Typora.",
+    "description": "Verwenden Sie Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
@@ -357,7 +357,7 @@
     "id": "typora-community-plugin.updated-footer",
     "name": "Updated Footer",
     "author": "Runwang Guo",
-    "description": "Zeige eine stabile 'Zuletzt aktualisiert'-Fußzeile am unteren Rand des Editors an.",
+    "description": "Zeigt eine stabile 'Zuletzt aktualisiert'-Fußzeile am unteren Rand des Editors an.",
     "repo": "RunwangGuo/typora-plugin-updated-footer",
     "platforms": [
       "win32",
@@ -369,7 +369,7 @@
     "id": "typora-community-plugin.hide-assets-folder",
     "name": "Hide Assets Folder",
     "author": "RunwangGuo",
-    "description": "Verstecke Ordner, die auf .assets enden, in der Typora-Seitenleiste.",
+    "description": "Versteckt Ordner, die auf .assets enden, in der Typora-Seitenleiste.",
     "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
     "platforms": [
       "win32",
@@ -393,7 +393,7 @@
     "id": "you.search",
     "name": "You.com Search",
     "author": "You.com",
-    "description": "Füge Typora You.com-Websuchfunktionen für Recherche und Inhaltserstellung hinzu.",
+    "description": "Fügt Typora You.com-Websuchfunktionen für Recherche und Inhaltserstellung hinzu.",
     "repo": "mouse-value-add/typora-plugin-youcom-search",
     "platforms": [
       "win32",
@@ -405,7 +405,7 @@
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "Teilt das aktuelle Typora-Dokument in unabhängig scrollbare Bereiche auf.",
+    "description": "Teilt das aktuelle Typora-Dokument in unabhängig scrollbare Fenster auf.",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -420,6 +420,17 @@
     "description": "Stellt faltbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
+      "darwin"
+    ]
+  },
+  {
+    "id": "prisant-labs.outline-view",
+    "name": "Outline View",
+    "author": "Prisant Labs",
+    "description": "Eine synchronisierte Dokumentgliederung für Typoras rechten Arbeitsbereich-Dock.",
+    "repo": "prisant-labs/typora-plugin-outline-view",
+    "platforms": [
+      "win32",
       "darwin"
     ]
   }
