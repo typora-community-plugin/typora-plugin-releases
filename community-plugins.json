@@ -294,5 +294,13 @@
     "description": "A synchronized document outline for Typora's right workspace dock.",
     "repo": "prisant-labs/typora-plugin-outline-view",
     "platforms": ["win32", "darwin"]
+  },
+  {
+    "id": "prisant-labs.favorite-folders-files",
+    "name": "Favorites",
+    "author": "Prisant Labs",
+    "description": "Keep favorite folders and Markdown files within reach in Typora.",
+    "repo": "prisant-labs/typora-plugin-favorite-folders-files",
+    "platforms": ["win32", "darwin"]
   }
 ]
