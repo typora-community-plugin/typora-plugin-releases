@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI聊天讨论你的笔记。",
+    "description": "与AI讨论你的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以进行高亮显示。",
+    "description": "将语言A映射到语言B以进行语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "在可缩放和拖动的浮动窗口中打开渲染后的代码块预览（如Mermaid）。",
+    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "折叠/展开Markdown部分。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
+    "description": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "在文件树中为不同文件类型显示不同的图标。",
+    "description": "在文件树中为不同文件类型显示不同图标。",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -122,7 +122,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "脚注标记建议与数字脚注重��索引。",
+    "description": "脚注标记建议与重新索引数字脚注。",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "自动编辑前置元数据，支持创建时间和更新时间。",
+    "description": "自动编辑Front Matter，支持创建时间和更新时间。",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -157,7 +157,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图像相对于存储库根目录的位置。",
+    "description": "解析图片相对于知识库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "查看当前Markdown中的所有图像。",
+    "description": "查看当前Markdown中的所有图片。",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -216,7 +216,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "使用斜杠命令自动完成笔记片段。",
+    "description": "使用斜杠命令自动补全笔记片段。",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -405,7 +405,7 @@
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "将当前Typora文档拆分为独立可滚动的窗格。",
+    "description": "将当前Typora文档拆分为可独立滚动的窗格。",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -417,7 +417,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "在Typora中打开的Codex Markdown导出中恢复可折叠的嵌套详情块。",
+    "description": "在Typora中打开Codex Markdown导出文件时，恢复可折叠的嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -427,7 +427,7 @@
     "id": "prisant-labs.outline-view",
     "name": "Outline View",
     "author": "Prisant Labs",
-    "description": "用于Typora右侧工作区停靠栏的同步文档大纲。",
+    "description": "为Typora右侧工作区停靠栏提供同步的文档大纲。",
     "repo": "prisant-labs/typora-plugin-outline-view",
     "platforms": [
       "win32",
@@ -442,6 +442,18 @@
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
+      "darwin"
+    ]
+  },
+  {
+    "id": "AlexShyXie.resource-manager",
+    "name": "Resource Manager",
+    "author": "AlexShyXie",
+    "description": "扫描挂载的文件夹或当前文件：查找未被任何Markdown引用的资源，以及引用中缺失的本地文件。",
+    "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
+    "platforms": [
+      "win32",
+      "linux",
       "darwin"
     ]
   }

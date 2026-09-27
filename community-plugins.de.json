@@ -3,7 +3,7 @@
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
-    "description": "Verwende ABC-Musiknotation in Codeblöcken.",
+    "description": "Verwenden Sie ABC-Musiknotation in Codeblöcken.",
     "repo": "typora-community-plugin/typora-plugin-abcjs",
     "platforms": [
       "win32",
@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Chatte über deine Notizen mit KI.",
+    "description": "Chatten Sie über Ihre Notiz mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "Ordne Sprache A Sprache B für die Hervorhebung zu.",
+    "description": "Ordnet Sprache A Sprache B für die Hervorhebung zu.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "Öffne gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
+    "description": "Öffnet gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Mache deine Codes faltbar.",
+    "description": "Macht Ihre Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeige verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -122,7 +122,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnoten-Markierungsvorschläge & Nummerierte Fußnoten neu indizieren.",
+    "description": "Fußnoten-Marker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -157,7 +157,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Wurzelverzeichnis des Tresors auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Zeige alle Bilder im aktuellen Markdown-Dokument an.",
+    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "Verwende Markmap in Typora.",
+    "description": "Verwenden Sie Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -205,7 +205,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "Extrahiere Auswahl in eine neue Datei.",
+    "description": "Auswahl in eine neue Datei extrahieren.",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -216,7 +216,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwende Schrägstrich-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -228,7 +228,7 @@
     "id": "typora-community-plugin.statistics",
     "name": "Statistics",
     "author": "plylrnsdy",
-    "description": "Zeige Dokumentstatistiken an.",
+    "description": "Dokumentstatistiken anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-statistics",
     "platforms": [
       "win32",
@@ -239,7 +239,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Gestalte Text, der auf RegExp passt.",
+    "description": "Text dekoriert, der mit RegExp übereinstimmt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -263,7 +263,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Erstelle Notizen mit Vorlagen.",
+    "description": "Notizen mit Vorlagen erstellen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -287,7 +287,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "Verwende WaveDrom in Typora.",
+    "description": "Verwenden Sie WaveDrom in Typora.",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -310,7 +310,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Formatiere Markdown-Inhalte mit Abständen.",
+    "description": "Markdown-Inhalt mit Abstand formatieren.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -322,7 +322,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Pushe deine Markdown-Dateien direkt von Typora zu einem GitHub-Repository.",
+    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -334,7 +334,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "Verwende Markmap in Typora.",
+    "description": "Verwenden Sie Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
@@ -357,7 +357,7 @@
     "id": "typora-community-plugin.updated-footer",
     "name": "Updated Footer",
     "author": "Runwang Guo",
-    "description": "Zeige eine stabile 'Zuletzt aktualisiert'-Fußzeile am unteren Rand des Editors an.",
+    "description": "Zeigt eine stabile 'Zuletzt aktualisiert'-Fußzeile am unteren Rand des Editors an.",
     "repo": "RunwangGuo/typora-plugin-updated-footer",
     "platforms": [
       "win32",
@@ -369,7 +369,7 @@
     "id": "typora-community-plugin.hide-assets-folder",
     "name": "Hide Assets Folder",
     "author": "RunwangGuo",
-    "description": "Verstecke Ordner, die auf .assets enden, in der Typora-Seitenleiste.",
+    "description": "Versteckt Ordner, die auf .assets enden, in der Typora-Seitenleiste.",
     "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
     "platforms": [
       "win32",
@@ -381,7 +381,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "Vorschau von PlantUML-Codeblöcken in Typora.",
+    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",
@@ -405,7 +405,7 @@
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "Teilt das aktuelle Typora-Dokument in unabhängig scrollbare Bereiche auf.",
+    "description": "Teilt das aktuelle Typora-Dokument in unabhängig scrollbare Fenster auf.",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -438,10 +438,22 @@
     "id": "prisant-labs.favorite-folders-files",
     "name": "Favorites",
     "author": "Prisant Labs",
-    "description": "Halte bevorzugte Ordner und Markdown-Dateien in Typora griffbereit.",
+    "description": "Hält bevorzugte Ordner und Markdown-Dateien in Typora griffbereit.",
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
+      "darwin"
+    ]
+  },
+  {
+    "id": "AlexShyXie.resource-manager",
+    "name": "Resource Manager",
+    "author": "AlexShyXie",
+    "description": "Scannt den eingebundenen Ordner oder die aktuelle Datei: Findet Ressourcen, die von KEINEM Markdown referenziert werden, und Referenzen, deren lokale Dateien FEHLEN.",
+    "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
+    "platforms": [
+      "win32",
+      "linux",
       "darwin"
     ]
   }
