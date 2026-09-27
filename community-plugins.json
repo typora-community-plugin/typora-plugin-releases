@@ -307,8 +307,16 @@
     "id": "AlexShyXie.resource-manager",
     "name": "Resource Manager",
     "author": "AlexShyXie",
-    "description": "Scan the mounted folder or the current file: find resources that are NOT referenced by any Markdown, and references whose local files are MISSING.",
+    "description": "Scan the mounted folder: find resources that are NOT referenced by any Markdown, and references whose local files are MISSING.",
     "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "AlexShyXie.markdown-export",
+    "name": "Markdown Export",
+    "author": "AlexShyXie",
+    "description": "Export the current markdown file with its local attachments (images etc.) to any folder: collects referenced files into a configurable sub-folder (images / vx_images / assets ...) and rewrites the links. Understands ![](uri), <img src> and ![[wikilink]].",
+    "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": ["win32", "linux", "darwin"]
   }
 ]
