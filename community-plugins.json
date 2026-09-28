@@ -48,6 +48,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.codeblock-runner",
+    "name": "Codeblock Runner",
+    "author": "plylrnsdy",
+    "description": "Run Bash / C / C# / C++ / Crystal / Dart / Go / Haskell / HTML / Java / JavaScript / Julia / Kotlin / Lua / Node.js / PHP / PowerShell / Python / Python 2 / R / Rust / Swift / TypeScript / V / Zig code blocks in Typora.",
+    "repo": "typora-community-plugin/typora-plugin-codeblock-runner",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
