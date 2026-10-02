@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Chatten Sie über Ihre Notiz mit KI.",
+    "description": "Chatten Sie über Ihre Notizen mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "Sprache A auf Sprache B für die Hervorhebung abbilden.",
+    "description": "Ordnet Sprache A Sprache B für die Hervorhebung zu.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "Öffnen Sie gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
+    "description": "Öffnet gerenderte Codeblock-Vorschauen (z.B. Mermaid) in einem schwebenden Fenster mit Zoom- und Ziehfunktion.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -75,7 +75,7 @@
     "id": "typora-community-plugin.codeblock-runner",
     "name": "Codeblock Runner",
     "author": "plylrnsdy",
-    "description": "Führen Sie Bash / C / C# / C++ / Crystal / Dart / Go / Haskell / HTML / Java / JavaScript / Julia / Kotlin / Lua / Node.js / PHP / PowerShell / Python / Python 2 / R / Rust / Swift / TypeScript / V / Zig Codeblöcke in Typora aus.",
+    "description": "Führt Bash / C / C# / C++ / Crystal / Dart / Go / Haskell / HTML / Java / JavaScript / Julia / Kotlin / Lua / Node.js / PHP / PowerShell / Python / Python 2 / R / Rust / Swift / TypeScript / V / Zig Codeblöcke in Typora aus.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-runner",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Machen Sie Ihre Codes einklappbar.",
+    "description": "Macht Ihre Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt für verschiedene Dateitypen unterschiedliche Symbole im Dateibaum an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnoten-Marker-Vorschläge & Fußnoten numerisch neu indizieren.",
+    "description": "Fußnoten-Marker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -193,7 +193,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Markmap in Typora.",
+    "description": "Verwendet Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -217,7 +217,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "Auswahl in eine neue Datei extrahieren.",
+    "description": "Extrahiert die Auswahl in eine neue Datei.",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -228,7 +228,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
+    "description": "Verwendet Schrägstrich-Befehle zur Autovervollständigung von Notiz-Snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -251,7 +251,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Text dekoriert, der mit RegExp übereinstimmt.",
+    "description": "Dekoriert den Text, der auf den RegExp passt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -275,7 +275,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Notizen mit Vorlagen erstellen.",
+    "description": "Erstellt Notizen mit Vorlagen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -299,7 +299,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie WaveDrom in Typora.",
+    "description": "Verwendet WaveDrom in Typora.",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -322,7 +322,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Markdown-Inhalt mit Abstand formatieren.",
+    "description": "Formatiert Markdown-Inhalte mit Abständen.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -334,7 +334,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
+    "description": "Schiebt Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -346,7 +346,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "Verwenden Sie Markmap in Typora.",
+    "description": "Verwendet Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
@@ -393,7 +393,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "PlantUML-Codeblöcke in Typora in der Vorschau anzeigen.",
+    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",
@@ -405,7 +405,7 @@
     "id": "you.search",
     "name": "You.com Search",
     "author": "You.com",
-    "description": "Fügt Typora You.com-Websuche-Fähigkeiten für Recherche und Inhaltserstellung hinzu.",
+    "description": "Fügt Typora You.com-Websuchfunktionen für Recherche und Inhaltserstellung hinzu.",
     "repo": "mouse-value-add/typora-plugin-youcom-search",
     "platforms": [
       "win32",
@@ -429,7 +429,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "Stellt einklappbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
+    "description": "Stellt faltbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -450,7 +450,7 @@
     "id": "prisant-labs.favorite-folders-files",
     "name": "Favorites",
     "author": "Prisant Labs",
-    "description": "Behalten Sie Lieblingsordner und Markdown-Dateien in Typora griffbereit.",
+    "description": "Hält bevorzugte Ordner und Markdown-Dateien in Typora griffbereit.",
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
@@ -479,6 +479,16 @@
       "win32",
       "linux",
       "darwin"
+    ]
+  },
+  {
+    "id": "AlexShyXie.bibtex-citation",
+    "name": "BibTeX Citations",
+    "author": "AlexShyXie",
+    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs über @query (Klammer- oder Erzählform) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
+    "repo": "AlexShyXie/typora-plugin-bibtex-citation",
+    "platforms": [
+      "win32"
     ]
   }
 ]
