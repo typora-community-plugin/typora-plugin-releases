@@ -326,5 +326,14 @@
     "description": "Export the current markdown file with its local attachments (images etc.) to any folder: collects referenced files into a configurable sub-folder (images / vx_images / assets ...) and rewrites the links. Understands ![](uri), <img src> and ![[wikilink]].",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "AlexShyXie.bibtex-citation",
+    "name": "BibTeX Citations",
+    "author": "AlexShyXie",
+    "description": "Insert citations from local BibTeX files: search keys/titles/authors/years/journals/DOIs via @query (bracket or narrative) with highlighted suggestions, and render citations + bibliography from a single local CSL file.",
+    "repo": "AlexShyXie/typora-plugin-bibtex-citation",
+    "platforms": ["win32"]
   }
+
 ]
