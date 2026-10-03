@@ -221,7 +221,7 @@
     "author": "plylrnsdy",
     "description": "Support wikilink like `[[wikilink]]`.",
     "repo": "typora-community-plugin/typora-plugin-wikilink",
-    "platforms": ["win32", "linux"]
+    "platforms": ["win32", "linux", "darwin"]
   },
   {
     "id": "typora-community-plugin.md-padding",
