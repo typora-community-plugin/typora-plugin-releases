@@ -11,9 +11,9 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 650,
+    "downloads": 651,
     "updated": 1725513790000,
-    "1.1.3": 476,
+    "1.1.3": 477,
     "size": 2414
   },
   "typora-community-plugin.chat": {
@@ -31,11 +31,11 @@
     "1.1.0": 191,
     "1.0.1": 24,
     "1.0.0": 10,
-    "downloads": 1060,
+    "downloads": 1063,
     "updated": 1783359542000,
     "size": 2181,
     "1.1.1": 657,
-    "1.2.0": 178
+    "1.2.0": 181
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
@@ -258,8 +258,8 @@
   },
   "typora-community-plugin.trigger": {
     "size": 2437,
-    "1.0.0": 87,
-    "downloads": 87,
+    "1.0.0": 88,
+    "downloads": 88,
     "updated": 1746532996000
   },
   "typora-community-plugin.wavedrom": {
@@ -290,9 +290,9 @@
     "1.0.2": 6,
     "1.0.1": 12,
     "1.0.0": 4,
-    "downloads": 146,
+    "downloads": 147,
     "updated": 1742651413000,
-    "1.0.3": 124
+    "1.0.3": 125
   },
   "typora-community-plugin.githubpusher": {
     "size": 4202,
@@ -314,10 +314,10 @@
     "v1.5.1": 9,
     "v1.5.0": 7,
     "v1.3.0": 5,
-    "v1.1.0": 5,
+    "v1.1.0": 6,
     "v1.0.3": 1,
     "v1.0.1": 1,
-    "downloads": 172,
+    "downloads": 173,
     "updated": 1776236479000
   },
   "typora-community-plugin.git-sync": {
@@ -328,8 +328,8 @@
   },
   "typora-community-plugin.updated-footer": {
     "size": 2163,
-    "v1.0.0": 36,
-    "downloads": 36,
+    "v1.0.0": 37,
+    "downloads": 37,
     "updated": 1772820227000
   },
   "typora-community-plugin.hide-assets-folder": {
@@ -340,9 +340,9 @@
   },
   "n7tequila.typora-plugin-plantuml": {
     "size": 4979,
-    "downloads": 15,
+    "downloads": 16,
     "updated": 1786610444000,
-    "v0.1.2": 15
+    "v0.1.2": 16
   },
   "you.search": {
     "downloads": 0,
@@ -362,40 +362,49 @@
     "1.0.11": 2
   },
   "prisant-labs.outline-view": {
-    "size": 27408,
+    "size": 32833,
     "0.2.1": 5,
-    "downloads": 20,
-    "updated": 1790798321000,
+    "downloads": 24,
+    "updated": 1790995761000,
     "0.3.0": 2,
     "0.3.1": 9,
-    "0.3.2": 4
+    "0.3.2": 6,
+    "0.4.0": 2
   },
   "prisant-labs.favorite-folders-files": {
     "size": 37766,
     "0.1.1": 6,
     "0.1.0": 2,
-    "downloads": 10,
+    "downloads": 13,
     "updated": 1790901203000,
     "0.1.2": 1,
-    "0.1.3": 1
+    "0.1.3": 4
   },
   "AlexShyXie.resource-manager": {
-    "size": 24723,
+    "size": 24724,
     "1.0.0": 2,
     "downloads": 4,
-    "updated": 1790588439000,
+    "updated": 1790941351000,
     "1.1.1": 1,
     "1.3.3": 1,
     "1.3.2": 0,
     "1.3.1": 0,
     "1.3.0": 0,
     "1.2.1": 0,
-    "1.2.0": 0
+    "1.2.0": 0,
+    "1.3.4": 0
   },
   "AlexShyXie.markdown-export": {
     "size": 9589,
     "1.0.1": 4,
     "downloads": 4,
     "updated": 1790508847000
+  },
+  "AlexShyXie.bibtex-citation": {
+    "size": 720600,
+    "1.0.1": 0,
+    "1.0.0": 1,
+    "downloads": 1,
+    "updated": 1790932747000
   }
 }
