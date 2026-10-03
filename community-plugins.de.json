@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "Allgemeiner Dunkelmodus für jedes Theme.",
+    "description": "Allgemeiner Dunkelmodus für jedes Thema.",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt unterschiedliche Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "Front Matter automatisch bearbeiten, unterstützt Erstellungszeit & Aktualisierungszeit.",
+    "description": "Automatische Bearbeitung von Front Matter, unterstützt Erstellungszeit & Aktualisierungszeit.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Tresors auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -183,6 +183,18 @@
     "author": "plylrnsdy",
     "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "typora-community-plugin.kanban",
+    "name": "Kanban",
+    "author": "plylrnsdy",
+    "description": "Rendert Markdown-Dateien als interaktives Kanban-Board.",
+    "repo": "typora-community-plugin/typora-plugin-kanban",
     "platforms": [
       "win32",
       "linux",
@@ -251,7 +263,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Dekoriert den Text, der auf den RegExp passt.",
+    "description": "Dekoriert den Text, der auf den RegExp-Ausdruck passt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -357,7 +369,7 @@
   {
     "id": "typora-community-plugin.git-sync",
     "name": "Git Sync",
-    "description": "Git-Sync-Plugin für Typora.",
+    "description": "Git-Synchronisierungs-Plugin für Typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": [
@@ -393,7 +405,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
+    "description": "Vorschau von PlantUML-Codeblöcken in Typora.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",
@@ -485,7 +497,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs über @query (Klammer- oder Erzählform) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
+    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs via @query (Klammer- oder narrative Form) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"

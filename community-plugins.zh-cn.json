@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以进行语法高亮。",
+    "description": "将语言A映射到语言B以实现语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
+    "description": "在浮动窗口中打开渲染的代码块预览（如Mermaid），支持缩放和拖拽。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "让你的代码可折叠。",
+    "description": "使代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -99,7 +99,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "折叠/展开Markdown段落。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
+    "description": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "为任何主题提供通用深色模式。",
+    "description": "适用于任何主题的通用深色模式。",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "自动编辑前置元数据，支持创建时间和更新时间。",
+    "description": "自动编辑Front Matter，支持创建时间和更新时间。",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于库根目录的位置。",
+    "description": "解析图片相对于存储库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -183,6 +183,18 @@
     "author": "plylrnsdy",
     "description": "查看当前Markdown中的所有图片。",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "typora-community-plugin.kanban",
+    "name": "Kanban",
+    "author": "plylrnsdy",
+    "description": "将Markdown文件渲染为交互式看板。",
+    "repo": "typora-community-plugin/typora-plugin-kanban",
     "platforms": [
       "win32",
       "linux",
@@ -251,7 +263,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "用正则表达式匹配并装饰文本。",
+    "description": "装饰符合正则表达式的文本。",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -263,7 +275,7 @@
     "id": "typora-community-plugin.tag",
     "name": "Tag",
     "author": "plylrnsdy",
-    "description": "支持类似`#标签`的标签功能。",
+    "description": "支持类似 `#tag` 的标签。",
     "repo": "typora-community-plugin/typora-plugin-tag",
     "platforms": [
       "win32",
@@ -311,7 +323,7 @@
     "id": "typora-community-plugin.wikilink",
     "name": "Wiki Link",
     "author": "plylrnsdy",
-    "description": "支持类似`[[维基链接]]`的维基链接。",
+    "description": "支持类似 `[[wikilink]]` 的维基链接。",
     "repo": "typora-community-plugin/typora-plugin-wikilink",
     "platforms": [
       "win32",
@@ -322,7 +334,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "用内边距格式化Markdown内容。",
+    "description": "使用内边距格式化Markdown内容。",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -417,7 +429,7 @@
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "将当前Typora文档拆分为可独立滚动的窗格。",
+    "description": "将当前Typora文档拆分为独立可滚动的窗格。",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -429,7 +441,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "在Typora中打开Codex Markdown导出文件时，恢复可折叠的嵌套详情块。",
+    "description": "恢复在Typora中打开的Codex Markdown导出文件中可折叠的嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -439,7 +451,7 @@
     "id": "prisant-labs.outline-view",
     "name": "Outline View",
     "author": "Prisant Labs",
-    "description": "为Typora右侧工作区停靠栏提供同步文档大纲。",
+    "description": "为Typora右侧工作区停靠栏提供同步的文档大纲。",
     "repo": "prisant-labs/typora-plugin-outline-view",
     "platforms": [
       "win32",
@@ -461,7 +473,7 @@
     "id": "AlexShyXie.resource-manager",
     "name": "Resource Manager",
     "author": "AlexShyXie",
-    "description": "扫描挂载文件夹：查找未被任何Markdown引用的资源，以及引用中缺失的本地文件。",
+    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及本地文件缺失的引用。",
     "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -473,7 +485,7 @@
     "id": "AlexShyXie.markdown-export",
     "name": "Markdown Export",
     "author": "AlexShyXie",
-    "description": "将当前Markdown文件及其本地附件（图片等）导出到任意文件夹：将引用的文件收集到可配置的子文件夹（images / vx_images / assets ...）中并重写链接。支持![](uri)、<img src>和![[wikilink]]格式。",
+    "description": "将当前Markdown文件及其本地附件（图片等）导出到任意文件夹：将引用的文件收集到可配置的子文件夹（images / vx_images / assets ...）中并重写链接。支持 ![](uri)、<img src> 和 ![[wikilink]] 格式。",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -485,7 +497,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述形式）搜索键名/标题/作者/年份/期刊/DOI并高亮显示建议，从单个本地CSL文件渲染引用和参考文献。",
+    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述格式）搜索键名/标题/作者/年份/期刊/DOI，提供高亮建议，并从单个本地CSL文件渲染引用和参考文献列表。",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"
