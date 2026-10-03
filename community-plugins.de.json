@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Chatten Sie über Ihre Notizen mit KI.",
+    "description": "Chatten Sie über Ihre Notiz mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -39,7 +39,7 @@
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
-    "description": "Fügt eine Kopier-Schaltfläche in der oberen rechten Ecke jedes Codeblocks hinzu.",
+    "description": "Fügt eine Kopier-Schaltfläche in die obere rechte Ecke jedes Codeblocks ein.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
     "platforms": [
       "win32",
@@ -111,7 +111,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "Allgemeiner Dunkelmodus für jedes Thema.",
+    "description": "Allgemeiner Dunkelmodus für jedes Theme.",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt unterschiedliche Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "Automatische Bearbeitung von Front Matter, unterstützt Erstellungszeit & Aktualisierungszeit.",
+    "description": "Front Matter automatisch bearbeiten, unterstützt Erstellungszeit & Aktualisierungszeit.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Tresors auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
+    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -205,7 +205,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "Verwendet Markmap in Typora.",
+    "description": "Verwenden Sie Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -240,7 +240,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwendet Schrägstrich-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -263,7 +263,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Dekoriert den Text, der auf den RegExp-Ausdruck passt.",
+    "description": "Dekoriert den Text, der auf RegExp passt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -287,7 +287,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Erstellt Notizen mit Vorlagen.",
+    "description": "Notizen mit Vorlagen erstellen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -311,7 +311,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "Verwendet WaveDrom in Typora.",
+    "description": "Verwenden Sie WaveDrom in Typora.",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -346,7 +346,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Schiebt Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
+    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -358,7 +358,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "Verwendet Markmap in Typora.",
+    "description": "Verwenden Sie Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
@@ -369,7 +369,7 @@
   {
     "id": "typora-community-plugin.git-sync",
     "name": "Git Sync",
-    "description": "Git-Synchronisierungs-Plugin für Typora.",
+    "description": "Git-Sync-Plugin für Typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": [
@@ -405,20 +405,8 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "Vorschau von PlantUML-Codeblöcken in Typora.",
+    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
     "repo": "n7tequila/typora-plugin-plantuml",
-    "platforms": [
-      "win32",
-      "linux",
-      "darwin"
-    ]
-  },
-  {
-    "id": "you.search",
-    "name": "You.com Search",
-    "author": "You.com",
-    "description": "Fügt Typora You.com-Websuchfunktionen für Recherche und Inhaltserstellung hinzu.",
-    "repo": "mouse-value-add/typora-plugin-youcom-search",
     "platforms": [
       "win32",
       "linux",
@@ -485,7 +473,7 @@
     "id": "AlexShyXie.markdown-export",
     "name": "Markdown Export",
     "author": "AlexShyXie",
-    "description": "Exportiert die aktuelle Markdown-Datei mit ihren lokalen Anhängen (Bilder etc.) in einen beliebigen Ordner: Sammelt referenzierte Dateien in einem konfigurierbaren Unterordner (images / vx_images / assets ...) und schreibt die Links um. Versteht ![](uri), <img src> und ![[wikilink]].",
+    "description": "Exportiert die aktuelle Markdown-Datei mit ihren lokalen Anhängen (Bilder usw.) in einen beliebigen Ordner: Sammelt referenzierte Dateien in einem konfigurierbaren Unterordner (images / vx_images / assets ...) und schreibt die Links um. Versteht ![](uri), <img src> und ![[wikilink]].",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -497,7 +485,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs via @query (Klammer- oder narrative Form) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
+    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs über @query (Klammer- oder narrative Form) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"

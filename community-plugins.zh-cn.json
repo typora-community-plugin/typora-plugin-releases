@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以实现语法高亮。",
+    "description": "将语言A映射到语言B以进行语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "在浮动窗口中打开渲染的代码块预览（如Mermaid），支持缩放和拖拽。",
+    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "使代码可折叠。",
+    "description": "使你的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -169,7 +169,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于存储库根目录的位置。",
+    "description": "解析图片相对于仓库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -299,7 +299,7 @@
     "id": "typora-community-plugin.trigger",
     "name": "Trigger",
     "author": "plylrnsdy",
-    "description": "当事件发生时自动执行命令。",
+    "description": "当事件发生时，自动执行命令。",
     "repo": "typora-community-plugin/typora-plugin-trigger",
     "platforms": [
       "win32",
@@ -414,22 +414,10 @@
     ]
   },
   {
-    "id": "you.search",
-    "name": "You.com Search",
-    "author": "You.com",
-    "description": "为Typora添加You.com网络搜索功能，用于研究和内容创作。",
-    "repo": "mouse-value-add/typora-plugin-youcom-search",
-    "platforms": [
-      "win32",
-      "linux",
-      "darwin"
-    ]
-  },
-  {
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "将当前Typora文档拆分为独立可滚动的窗格。",
+    "description": "将当前Typora文档拆分为独立滚动的窗格。",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -441,7 +429,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "恢复在Typora中打开的Codex Markdown导出文件中可折叠的嵌套详情块。",
+    "description": "恢复在Typora中打开的Codex Markdown导出文件中的可折叠嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -473,7 +461,7 @@
     "id": "AlexShyXie.resource-manager",
     "name": "Resource Manager",
     "author": "AlexShyXie",
-    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及本地文件缺失的引用。",
+    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及引用中本地文件缺失的情况。",
     "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -497,7 +485,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述格式）搜索键名/标题/作者/年份/期刊/DOI，提供高亮建议，并从单个本地CSL文件渲染引用和参考文献列表。",
+    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述形式）搜索键/标题/作者/年份/期刊/DOI，并高亮显示建议，从单个本地CSL文件渲染引用和参考文献列表。",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"
