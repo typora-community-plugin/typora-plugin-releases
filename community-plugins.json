@@ -128,6 +128,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.kanban",
+    "name": "Kanban",
+    "author": "plylrnsdy",
+    "description": "Render Markdown files as an interactive Kanban board.",
+    "repo": "typora-community-plugin/typora-plugin-kanban",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
