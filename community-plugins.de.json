@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt für verschiedene Dateitypen unterschiedliche Symbole im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnoten-Marker-Vorschläge & Neuindizierung der numerischen Fußnoten.",
+    "description": "Fußnoten-Markierungsvorschläge & Neuindizierung der numerischen Fußnoten.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "Front Matter automatisch bearbeiten, unterstützt Erstellungszeit & Aktualisierungszeit.",
+    "description": "Automatisches Bearbeiten von Front Matter, unterstützt Erstellungszeit & Aktualisierungszeit.",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
+    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -205,7 +205,7 @@
     "id": "typora-community-plugin.markmap",
     "name": "Markmap",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Markmap in Typora.",
+    "description": "Verwendet Markmap in Typora.",
     "repo": "typora-community-plugin/typora-plugin-markmap",
     "platforms": [
       "win32",
@@ -240,7 +240,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
+    "description": "Verwendet Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -287,7 +287,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Notizen mit Vorlagen erstellen.",
+    "description": "Erstellt Notizen mit Vorlagen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -311,7 +311,7 @@
     "id": "typora-community-plugin.wavedrom",
     "name": "WaveDrom",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie WaveDrom in Typora.",
+    "description": "Verwendet WaveDrom in Typora.",
     "repo": "typora-community-plugin/typora-plugin-wavedrom",
     "platforms": [
       "win32",
@@ -327,7 +327,8 @@
     "repo": "typora-community-plugin/typora-plugin-wikilink",
     "platforms": [
       "win32",
-      "linux"
+      "linux",
+      "darwin"
     ]
   },
   {
@@ -346,7 +347,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "Schieben Sie Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
+    "description": "Überträgt Ihre Markdown-Dateien direkt von Typora in ein GitHub-Repository.",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -358,7 +359,7 @@
     "id": "util6.markmapplus",
     "name": "Markmap Plus",
     "author": "util6",
-    "description": "Verwenden Sie Markmap in Typora.",
+    "description": "Verwendet Markmap in Typora.",
     "repo": "util6/typora-plugin-markmap-plus",
     "platforms": [
       "win32",
@@ -369,7 +370,7 @@
   {
     "id": "typora-community-plugin.git-sync",
     "name": "Git Sync",
-    "description": "Git-Sync-Plugin für Typora.",
+    "description": "Git-Synchronisierungs-Plugin für Typora.",
     "author": "tai-jing-jian",
     "repo": "tai-jing-jian/typora-plugin-git-sync",
     "platforms": [
@@ -393,7 +394,7 @@
     "id": "typora-community-plugin.hide-assets-folder",
     "name": "Hide Assets Folder",
     "author": "RunwangGuo",
-    "description": "Versteckt Ordner, die auf .assets enden, in der Typora-Seitenleiste.",
+    "description": "Blendet Ordner, die mit .assets enden, in der Typora-Seitenleiste aus.",
     "repo": "RunwangGuo/typora-plugin-hide-assets-folder",
     "platforms": [
       "win32",
@@ -405,7 +406,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
+    "description": "Vorschau von PlantUML-Codeblöcken in Typora.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",
@@ -439,7 +440,7 @@
     "id": "prisant-labs.outline-view",
     "name": "Outline View",
     "author": "Prisant Labs",
-    "description": "Eine synchronisierte Dokumentgliederung für Typoras rechten Arbeitsbereich-Dock.",
+    "description": "Eine synchronisierte Dokumentgliederung für Typoras rechten Arbeitsbereichs-Dock.",
     "repo": "prisant-labs/typora-plugin-outline-view",
     "platforms": [
       "win32",
@@ -473,7 +474,7 @@
     "id": "AlexShyXie.markdown-export",
     "name": "Markdown Export",
     "author": "AlexShyXie",
-    "description": "Exportiert die aktuelle Markdown-Datei mit ihren lokalen Anhängen (Bilder usw.) in einen beliebigen Ordner: Sammelt referenzierte Dateien in einem konfigurierbaren Unterordner (images / vx_images / assets ...) und schreibt die Links um. Versteht ![](uri), <img src> und ![[wikilink]].",
+    "description": "Exportiert die aktuelle Markdown-Datei mit ihren lokalen Anhängen (Bilder etc.) in einen beliebigen Ordner: Sammelt referenzierte Dateien in einem konfigurierbaren Unterordner (images / vx_images / assets ...) und schreibt die Links um. Versteht ![](uri), <img src> und ![[wikilink]].",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -485,7 +486,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs über @query (Klammer- oder narrative Form) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
+    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs über @query (Klammer- oder narrative Form) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzigen lokalen CSL-Datei.",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"

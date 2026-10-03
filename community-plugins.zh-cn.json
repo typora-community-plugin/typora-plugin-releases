@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论你的笔记内容。",
+    "description": "与AI讨论你的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以进行语法高亮。",
+    "description": "将语言A映射到语言B以进行高亮显示。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
+    "description": "在浮动窗口中打开渲染的代码块预览（如Mermaid），支持缩放和拖拽。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "在文件树中为不同文件类型显示不同图标。",
+    "description": "在文件树中为不同文件类型显示不同的图标。",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -134,7 +134,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "脚注标记建议与数字脚注重新索引。",
+    "description": "脚注标记建议 & 重新索引数字脚注。",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -158,7 +158,7 @@
     "id": "typora-community-plugin.git",
     "name": "Git",
     "author": "plylrnsdy",
-    "description": "Typora的Git侧边栏：查看并暂存/取消暂存文件。",
+    "description": "Typora的Git侧边栏：查看和暂存/取消暂存文件。",
     "repo": "typora-community-plugin/typora-plugin-git",
     "platforms": [
       "win32",
@@ -229,7 +229,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "将选中内容提取到新文件。",
+    "description": "将选定内容提取到新文件。",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -263,7 +263,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "装饰符合正则表达式的文本。",
+    "description": "装饰匹配正则表达式的文本。",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -327,7 +327,8 @@
     "repo": "typora-community-plugin/typora-plugin-wikilink",
     "platforms": [
       "win32",
-      "linux"
+      "linux",
+      "darwin"
     ]
   },
   {
@@ -417,7 +418,7 @@
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "将当前Typora文档拆分为独立滚动的窗格。",
+    "description": "将当前Typora文档拆分为独立可滚动的窗格。",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -429,7 +430,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "恢复在Typora中打开的Codex Markdown导出文件中的可折叠嵌套详情块。",
+    "description": "在Typora中打开的Codex Markdown导出文件中恢复可折叠的嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -450,7 +451,7 @@
     "id": "prisant-labs.favorite-folders-files",
     "name": "Favorites",
     "author": "Prisant Labs",
-    "description": "在Typora中快速访问收藏的文件夹和Markdown文件。",
+    "description": "在Typora中轻松访问收藏的文件夹和Markdown文件。",
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
@@ -461,7 +462,7 @@
     "id": "AlexShyXie.resource-manager",
     "name": "Resource Manager",
     "author": "AlexShyXie",
-    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及引用中本地文件缺失的情况。",
+    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及本地文件缺失的引用。",
     "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -473,7 +474,7 @@
     "id": "AlexShyXie.markdown-export",
     "name": "Markdown Export",
     "author": "AlexShyXie",
-    "description": "将当前Markdown文件及其本地附件（图片等）导出到任意文件夹：将引用的文件收集到可配置的子文件夹（images / vx_images / assets ...）中并重写链接。支持 ![](uri)、<img src> 和 ![[wikilink]] 格式。",
+    "description": "将当前Markdown文件及其本地附件（图片等）导出到任意文件夹：将引用的文件收集到可配置的子文件夹（images / vx_images / assets ...）中并重写链接。支持 ![](uri)、<img src> 和 ![[wikilink]]。",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": [
       "win32",
