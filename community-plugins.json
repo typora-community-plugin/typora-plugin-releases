@@ -334,6 +334,13 @@
     "description": "Insert citations from local BibTeX files: search keys/titles/authors/years/journals/DOIs via @query (bracket or narrative) with highlighted suggestions, and render citations + bibliography from a single local CSL file.",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": ["win32"]
+  },
+  {
+    "id": "typora-plugin-pikchr",
+    "name": "Pikchr Diagram Renderer",
+    "author": "OnionStar0325",
+    "description": "Render Pikchr diagrams in Typora in real-time with WebAssembly engine.",
+    "repo": "OnionStar0325/typora-plugin-pikchr",
+    "platforms": ["win32", "linux", "darwin"]
   }
-
 ]
