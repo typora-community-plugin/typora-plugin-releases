@@ -72,6 +72,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "typora-community-plugin.csv",
+    "name": "CSV",
+    "author": "plylrnsdy",
+    "description": "View and edit .csv / .tsv files as a visual table.",
+    "repo": "typora-community-plugin/typora-plugin-csv",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
