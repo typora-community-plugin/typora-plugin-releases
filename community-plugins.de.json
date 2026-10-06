@@ -3,7 +3,7 @@
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie ABC-Musiknotation im Codeblock.",
+    "description": "Verwenden Sie ABC-Musiknotation in Codeblöcken.",
     "repo": "typora-community-plugin/typora-plugin-abcjs",
     "platforms": [
       "win32",
@@ -39,7 +39,7 @@
     "id": "typora-community-plugin.codeblock-copy-button",
     "name": "Codeblock Copy Button",
     "author": "plylrnsdy",
-    "description": "Fügt eine Kopier-Schaltfläche in der oberen rechten Ecke jedes Codeblocks hinzu.",
+    "description": "Fügt eine Kopier-Schaltfläche in die obere rechte Ecke jedes Codeblocks ein.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-copy-button",
     "platforms": [
       "win32",
@@ -108,6 +108,18 @@
     ]
   },
   {
+    "id": "typora-community-plugin.csv",
+    "name": "CSV",
+    "author": "plylrnsdy",
+    "description": ".csv / .tsv-Dateien als visuelle Tabelle anzeigen und bearbeiten.",
+    "repo": "typora-community-plugin/typora-plugin-csv",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
@@ -123,7 +135,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
+    "description": "Zeigt für verschiedene Dateitypen unterschiedliche Symbole im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -169,7 +181,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Tresors auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -181,7 +193,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
+    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -240,7 +252,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
+    "description": "Verwenden Sie Schrägstrich-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -263,7 +275,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Den mit RegExp übereinstimmenden Text dekorieren.",
+    "description": "Dekoriert den Text, der mit RegExp übereinstimmt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -287,7 +299,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Notizen mit Vorlagen erstellen.",
+    "description": "Erstellen Sie Notizen mit Vorlagen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -335,7 +347,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Markdown-Inhalt mit Abständen formatieren.",
+    "description": "Formatiert Markdown-Inhalte mit Abstand.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -430,7 +442,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "Stellt faltbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
+    "description": "Stellt zusammenklappbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -451,7 +463,7 @@
     "id": "prisant-labs.favorite-folders-files",
     "name": "Favorites",
     "author": "Prisant Labs",
-    "description": "Behalten Sie bevorzugte Ordner und Markdown-Dateien in Typora stets griffbereit.",
+    "description": "Hält bevorzugte Ordner und Markdown-Dateien in Typora griffbereit.",
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
@@ -462,7 +474,7 @@
     "id": "AlexShyXie.resource-manager",
     "name": "Resource Manager",
     "author": "AlexShyXie",
-    "description": "Scannt den eingebundenen Ordner: Findet Ressourcen, die von KEINEM Markdown referenziert werden, und Referenzen, deren lokale Dateien FEHLEN.",
+    "description": "Durchsucht den eingebundenen Ordner: Findet Ressourcen, die von KEINEM Markdown referenziert werden, und Referenzen, deren lokale Dateien FEHLEN.",
     "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -474,7 +486,7 @@
     "id": "AlexShyXie.markdown-export",
     "name": "Markdown Export",
     "author": "AlexShyXie",
-    "description": "Exportiert die aktuelle Markdown-Datei mit ihren lokalen Anhängen (Bilder usw.) in einen beliebigen Ordner: Sammelt referenzierte Dateien in einem konfigurierbaren Unterordner (images / vx_images / assets ...) und schreibt die Links um. Versteht ![](uri), <img src> und ![[wikilink]].",
+    "description": "Exportiert die aktuelle Markdown-Datei mit ihren lokalen Anhängen (Bilder etc.) in einen beliebigen Ordner: Sammelt referenzierte Dateien in einem konfigurierbaren Unterordner (images / vx_images / assets ...) und schreibt die Links um. Versteht ![](uri), <img src> und ![[wikilink]].",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -496,7 +508,7 @@
     "id": "typora-plugin-pikchr",
     "name": "Pikchr Diagram Renderer",
     "author": "OnionStar0325",
-    "description": "Rendert Pikchr-Diagramme in Typora in Echtzeit mit WebAssembly-Engine.",
+    "description": "Rendert Pikchr-Diagramme in Typora in Echtzeit mit einer WebAssembly-Engine.",
     "repo": "OnionStar0325/typora-plugin-pikchr",
     "platforms": [
       "win32",

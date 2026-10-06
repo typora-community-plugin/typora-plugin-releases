@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论你的笔记。",
+    "description": "与AI讨论您的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以进行高亮显示。",
+    "description": "将语言A映射到语言B以进行语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "使你的代码可折叠。",
+    "description": "使您的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -99,8 +99,20 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
+    "description": "折叠/展开Markdown区块。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "typora-community-plugin.csv",
+    "name": "CSV",
+    "author": "plylrnsdy",
+    "description": "以可视化表格形式查看和编辑.csv / .tsv文件。",
+    "repo": "typora-community-plugin/typora-plugin-csv",
     "platforms": [
       "win32",
       "linux",
@@ -123,7 +135,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "在文件树中为不同文件类型显示不同图标。",
+    "description": "在文件树中为不同文件类型显示不同的图标。",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -146,7 +158,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "自动编辑Front Matter，支持创建时间和更新时间。",
+    "description": "自动编辑Front Matter，支持创建时间与更新时间。",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -263,7 +275,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "装饰匹配正则表达式的文本。",
+    "description": "装饰符合正则表达式的文本。",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -347,7 +359,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将你的Markdown文件从Typora直接推送到GitHub仓库。",
+    "description": "将您的Markdown文件从Typora直接推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -451,7 +463,7 @@
     "id": "prisant-labs.favorite-folders-files",
     "name": "Favorites",
     "author": "Prisant Labs",
-    "description": "在Typora中快速访问收藏的文件夹和Markdown文件。",
+    "description": "在Typora中轻松访问收藏的文件夹和Markdown文件。",
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
@@ -462,7 +474,7 @@
     "id": "AlexShyXie.resource-manager",
     "name": "Resource Manager",
     "author": "AlexShyXie",
-    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及引用缺失本地文件的链接。",
+    "description": "扫描挂载的文件夹：查找未被任何Markdown引用的资源，以及本地文件缺失的引用。",
     "repo": "AlexShyXie/resource-manager-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -486,7 +498,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述式）搜索键/标题/作者/年份/期刊/DOI并高亮建议，从单个本地CSL文件渲染引用和参考文献列表。",
+    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述式）搜索键/标题/作者/年份/期刊/DOI，并高亮显示建议，从单个本地CSL文件渲染引用和参考文献。",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"
