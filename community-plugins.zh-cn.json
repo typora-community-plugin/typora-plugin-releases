@@ -15,7 +15,7 @@
     "id": "typora-community-plugin.callout",
     "name": "Callout",
     "author": "plylrnsdy",
-    "description": "支持类似Obsidian的标注块 `> [!type]`。",
+    "description": "支持Obsidian风格的标注块 `> [!type]`。",
     "repo": "typora-community-plugin/typora-plugin-callout",
     "platforms": [
       "win32",
@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论您的笔记。",
+    "description": "与AI讨论你的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以进行语法高亮。",
+    "description": "将语言A映射到语言B以实现语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "在浮动窗口中打开渲染的代码块预览（如Mermaid），支持缩放和拖拽。",
+    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "使您的代码可折叠。",
+    "description": "使你的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -99,7 +99,7 @@
     "id": "typora-community-plugin.collapsible-section",
     "name": "Collapsible Section",
     "author": "plylrnsdy",
-    "description": "折叠/展开Markdown区块。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
+    "description": "折叠/展开Markdown章节。支持标题、嵌套列表、代码块、表格、引用块、标注块。",
     "repo": "typora-community-plugin/typora-plugin-collapsible-section",
     "platforms": [
       "win32",
@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "适用于任何主题的通用深色模式。",
+    "description": "为任何主题提供通用深色模式。",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "脚注标记建议与数字脚注重新索引。",
+    "description": "脚注标记建议与重新索引数字脚注。",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -158,7 +158,7 @@
     "id": "typora-community-plugin.front-matter",
     "name": "Front Matter",
     "author": "plylrnsdy",
-    "description": "自动编辑Front Matter，支持创建时间与更新时间。",
+    "description": "自动编辑Front Matter，支持创建时间和更新时间。",
     "repo": "typora-community-plugin/typora-plugin-front-matter",
     "platforms": [
       "win32",
@@ -275,7 +275,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "装饰符合正则表达式的文本。",
+    "description": "装饰匹配正则表达式的文本。",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -359,7 +359,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将您的Markdown文件从Typora直接推送到GitHub仓库。",
+    "description": "将你的Markdown文件直接从Typora推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -442,7 +442,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "在Typora中打开的Codex Markdown导出中恢复可折叠的嵌套详情块。",
+    "description": "恢复在Typora中打开的Codex Markdown导出文件中的可折叠嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -452,7 +452,7 @@
     "id": "prisant-labs.outline-view",
     "name": "Outline View",
     "author": "Prisant Labs",
-    "description": "为Typora右侧工作区停靠栏提供同步的文档大纲。",
+    "description": "为Typora右侧工作区停靠栏提供同步文档大纲。",
     "repo": "prisant-labs/typora-plugin-outline-view",
     "platforms": [
       "win32",
@@ -498,7 +498,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述式）搜索键/标题/作者/年份/期刊/DOI，并高亮显示建议，从单个本地CSL文件渲染引用和参考文献。",
+    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述形式）搜索键/标题/作者/年份/期刊/DOI，并高亮显示建议，从单个本地CSL文件渲染引用和参考文献。",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"
@@ -520,10 +520,22 @@
     "id": "AlexShyXie.criticmarkup-review",
     "name": "Criticmarkup Review",
     "author": "AlexShyXie",
-    "description": "Typora的Criticmarkup审阅功能",
+    "description": "Typora的Criticmarkup审阅功能。",
     "repo": "AlexShyXie/typora-criticmarkup-review",
     "platforms": [
       "win32"
+    ]
+  },
+  {
+    "id": "AlexShyXie.callout-copy-button",
+    "name": "Callout Copy Button",
+    "author": "AlexShyXie",
+    "description": "为标注块添加复制按钮。三个独立开关：选择整个标注块、以纯文本复制正文、以Markdown格式复制正文。",
+    "repo": "AlexShyXie/typora-callout-copy-buttons",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
     ]
   }
 ]
