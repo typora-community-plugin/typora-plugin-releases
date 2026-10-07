@@ -21,12 +21,12 @@
     "size": 81080,
     "1.0.2": 1,
     "1.0.1": 1,
-    "downloads": 63,
+    "downloads": 64,
     "updated": 1789122883000,
     "1.0.5": 3,
     "1.0.7": 4,
     "1.1.0": 17,
-    "1.2.5": 37
+    "1.2.5": 38
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 192,
@@ -83,7 +83,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 13,
-    "downloads": 1536,
+    "downloads": 1540,
     "updated": 1789393712000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -97,14 +97,14 @@
     "1.9.2": 411,
     "1.13.0": 186,
     "1.12.0": 64,
-    "1.13.1": 75
+    "1.13.1": 79
   },
   "typora-community-plugin.csv": {
     "size": 29920,
-    "1.0.0": 1,
-    "downloads": 1,
+    "1.0.0": 2,
+    "downloads": 3,
     "updated": 1791279268000,
-    "1.0.1": 0
+    "1.0.1": 1
   },
   "typora-community-plugin.darkmode": {
     "1.1.0": 17,
@@ -118,15 +118,15 @@
   "typora-community-plugin.file-icon": {
     "1.0.1": 300,
     "1.0.0": 5,
-    "downloads": 365,
+    "downloads": 366,
     "updated": 1783403341000,
     "size": 3621,
-    "1.2.1": 60
+    "1.2.1": 61
   },
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 265,
+    "downloads": 266,
     "updated": 1783342072000,
     "1.1.1": 115,
     "1.1.0": 3,
@@ -134,7 +134,7 @@
     "1.2.1": 4,
     "1.2.2": 73,
     "1.2.3": 18,
-    "1.2.5": 35,
+    "1.2.5": 36,
     "1.2.4": 11
   },
   "typora-community-plugin.front-matter": {
@@ -152,9 +152,9 @@
   },
   "typora-community-plugin.git": {
     "size": 12056,
-    "1.0.1": 13,
+    "1.0.1": 14,
     "1.0.0": 0,
-    "downloads": 13,
+    "downloads": 14,
     "updated": 1789280245000
   },
   "typora-community-plugin.image-location": {
@@ -167,27 +167,27 @@
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 352,
+    "downloads": 354,
     "updated": 1757254714000,
     "1.0.2": 35,
     "1.0.0": 4,
     "1.0.3": 110,
     "size": 15985,
-    "1.0.4": 203
+    "1.0.4": 205
   },
   "typora-community-plugin.kanban": {
     "size": 37420,
     "1.0.1": 1,
     "1.0.0": 0,
-    "downloads": 5,
+    "downloads": 6,
     "updated": 1791278715000,
     "1.1.2": 2,
     "1.1.8": 2,
-    "1.1.9": 0
+    "1.1.9": 1
   },
   "typora-community-plugin.markmap": {
     "1.0.0": 85,
-    "downloads": 440,
+    "downloads": 441,
     "updated": 1783362902000,
     "size": 920855,
     "1.1.0": 9,
@@ -198,7 +198,7 @@
     "1.2.0": 2,
     "1.1.4": 4,
     "1.2.2": 157,
-    "1.3.0": 62
+    "1.3.0": 63
   },
   "typora-community-plugin.mini-outline": {
     "size": 7684,
@@ -252,7 +252,7 @@
     "1.3.1": 8,
     "1.0.2": 7,
     "1.0.1": 6,
-    "downloads": 483,
+    "downloads": 484,
     "updated": 1791124821000,
     "1.6.1": 294,
     "size": 5113,
@@ -260,7 +260,7 @@
     "1.8.0": 51,
     "1.7.3": 19,
     "1.7.2": 3,
-    "1.8.1": 2
+    "1.8.1": 3
   },
   "typora-community-plugin.templater": {
     "size": 4046,
@@ -296,7 +296,7 @@
     "1.1.1": 6,
     "1.0.1": 8,
     "1.0.0": 6,
-    "downloads": 423,
+    "downloads": 424,
     "updated": 1791194632000,
     "1.2.0": 240,
     "size": 8698,
@@ -305,7 +305,7 @@
     "1.6.1": 19,
     "1.6.0": 0,
     "1.6.2": 1,
-    "1.6.3": 3
+    "1.6.3": 4
   },
   "typora-community-plugin.md-padding": {
     "size": 9511,
@@ -368,8 +368,8 @@
   },
   "n7tequila.typora-plugin-splitwindow": {
     "size": 4387,
-    "0.1.2": 12,
-    "downloads": 12,
+    "0.1.2": 13,
+    "downloads": 13,
     "updated": 1788359096000
   },
   "citizenyolo.chatgpt-details": {
@@ -393,15 +393,15 @@
     "size": 37766,
     "0.1.1": 6,
     "0.1.0": 2,
-    "downloads": 13,
+    "downloads": 14,
     "updated": 1790901203000,
     "0.1.2": 1,
-    "0.1.3": 4
+    "0.1.3": 5
   },
   "AlexShyXie.resource-manager": {
     "size": 24707,
     "1.0.0": 2,
-    "downloads": 5,
+    "downloads": 6,
     "updated": 1790941351000,
     "1.1.1": 1,
     "1.3.3": 1,
@@ -410,7 +410,7 @@
     "1.3.0": 0,
     "1.2.1": 0,
     "1.2.0": 0,
-    "1.3.4": 1
+    "1.3.4": 2
   },
   "AlexShyXie.markdown-export": {
     "size": 9589,
@@ -419,12 +419,13 @@
     "updated": 1790508847000
   },
   "AlexShyXie.bibtex-citation": {
-    "size": 720581,
+    "size": 724754,
     "1.0.1": 12,
     "1.0.0": 1,
-    "downloads": 15,
-    "updated": 1791170020000,
-    "1.0.2": 2
+    "downloads": 19,
+    "updated": 1791333547000,
+    "1.0.2": 4,
+    "1.0.3": 2
   },
   "typora-plugin-pikchr": {
     "size": 639599,
