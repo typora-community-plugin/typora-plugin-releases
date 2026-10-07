@@ -358,5 +358,13 @@
     "description": "Criticmarkup Review for Typora",
     "repo": "AlexShyXie/typora-criticmarkup-review",
     "platforms": ["win32"]
+  },
+  {
+    "id": "AlexShyXie.callout-copy-button",
+    "name": "Callout Copy Button",
+    "author": "AlexShyXie",
+    "description": "Add copy buttons to callout. Three independent toggles: select the whole callout, copy the body as plain text, copy the body as Markdown",
+    "repo": "AlexShyXie/typora-callout-copy-buttons",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
