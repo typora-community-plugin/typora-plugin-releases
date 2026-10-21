@@ -12,9 +12,9 @@
     "1.1.1": 67,
     "1.1.0": 5,
     "1.0.0": 66,
-    "downloads": 660,
+    "downloads": 661,
     "updated": 1725513790000,
-    "1.1.3": 486,
+    "1.1.3": 487,
     "size": 2414
   },
   "typora-community-plugin.chat": {
@@ -56,14 +56,14 @@
   "typora-community-plugin.codeblock-previewer-plus": {
     "size": 8027,
     "1.0.1": 5,
-    "downloads": 45,
+    "downloads": 46,
     "updated": 1792508780000,
     "1.0.2": 5,
     "1.3.2": 5,
     "1.0.0": 0,
     "1.3.3": 17,
     "1.3.5": 13,
-    "1.3.6": 0
+    "1.3.6": 1
   },
   "typora-community-plugin.codeblock-runner": {
     "size": 73772,
@@ -394,14 +394,16 @@
     "0.4.0": 12
   },
   "prisant-labs.favorite-folders-files": {
-    "size": 41578,
+    "size": 55113,
     "0.1.1": 6,
     "0.1.0": 2,
-    "downloads": 22,
-    "updated": 1791586789000,
+    "downloads": 24,
+    "updated": 1792541144000,
     "0.1.2": 1,
     "0.1.3": 6,
-    "0.1.4": 7
+    "0.1.4": 7,
+    "0.3.0": 1,
+    "0.2.0": 1
   },
   "AlexShyXie.resource-manager": {
     "size": 24707,
