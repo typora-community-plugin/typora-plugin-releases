@@ -135,7 +135,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "Zeigt für verschiedene Dateitypen unterschiedliche Symbole im Dateibaum an.",
+    "description": "Zeigt verschiedene Symbole für verschiedene Dateitypen im Dateibaum an.",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnoten-Marker-Vorschläge & Fußnoten numerisch neu indizieren.",
+    "description": "Fußnoten-Marker-Vorschläge & Numerische Fußnoten neu indizieren.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Vaults auf.",
+    "description": "Löst den Speicherort von Bildern relativ zum Stammverzeichnis des Tresors auf.",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -193,7 +193,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
+    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -252,7 +252,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
+    "description": "Verwenden Sie Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -264,7 +264,7 @@
     "id": "typora-community-plugin.statistics",
     "name": "Statistics",
     "author": "plylrnsdy",
-    "description": "Zeigt Dokumentstatistiken an.",
+    "description": "Dokumentstatistiken anzeigen.",
     "repo": "typora-community-plugin/typora-plugin-statistics",
     "platforms": [
       "win32",
@@ -275,7 +275,7 @@
     "id": "typora-community-plugin.styled-text",
     "name": "Styled Text",
     "author": "plylrnsdy",
-    "description": "Text dekoriert, der auf RegExp passt.",
+    "description": "Text dekoriert, der mit RegExp übereinstimmt.",
     "repo": "typora-community-plugin/typora-plugin-styled-text",
     "platforms": [
       "win32",
@@ -347,7 +347,7 @@
     "id": "typora-community-plugin.md-padding",
     "name": "Markdown Padding",
     "author": "SukiEva",
-    "description": "Markdown-Inhalt mit Abständen formatieren.",
+    "description": "Markdown-Inhalt mit Abstand formatieren.",
     "repo": "SukiEva/typora-plugin-md-padding",
     "platforms": [
       "win32",
@@ -508,7 +508,7 @@
     "id": "typora-plugin-pikchr",
     "name": "Pikchr Diagram Renderer",
     "author": "OnionStar0325",
-    "description": "Rendert Pikchr-Diagramme in Typora in Echtzeit mit einer WebAssembly-Engine.",
+    "description": "Rendert Pikchr-Diagramme in Typora in Echtzeit mit WebAssembly-Engine.",
     "repo": "OnionStar0325/typora-plugin-pikchr",
     "platforms": [
       "win32",
@@ -530,7 +530,7 @@
     "id": "AlexShyXie.callout-copy-button",
     "name": "Callout Copy Button",
     "author": "AlexShyXie",
-    "description": "Fügt Kopier-Schaltflächen zu Callouts hinzu. Drei unabhängige Umschalter: gesamtes Callout auswählen, den Inhalt als Klartext kopieren, den Inhalt als Markdown kopieren.",
+    "description": "Fügt Kopier-Schaltflächen zu Callouts hinzu. Drei unabhängige Umschalter: Wählt das gesamte Callout aus, kopiert den Körper als Klartext, kopiert den Körper als Markdown.",
     "repo": "AlexShyXie/typora-callout-copy-buttons",
     "platforms": [
       "win32",
@@ -541,7 +541,7 @@
   {
     "id": "hazuki-keatsu.pele",
     "name": "Pele",
-    "author": "hazuki-keatsu.pele",
+    "author": "hazuki-keatsu",
     "description": "Rendert Mermaid-Diagramme mit Pele.",
     "repo": "hazuki-keatsu/typora-pele",
     "platforms": [
