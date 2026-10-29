@@ -370,7 +370,7 @@
   {
     "id": "hazuki-keatsu.pele",
     "name": "Pele",
-    "author": "hazuki-keatsu.pele",
+    "author": "hazuki-keatsu",
     "description": "Render Mermaid diagrams with Pele.",
     "repo": "hazuki-keatsu/typora-pele",
     "platforms": ["win32", "linux", "darwin"]
