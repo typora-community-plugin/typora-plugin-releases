@@ -366,5 +366,13 @@
     "description": "Add copy buttons to callout. Three independent toggles: select the whole callout, copy the body as plain text, copy the body as Markdown",
     "repo": "AlexShyXie/typora-callout-copy-buttons",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "hazuki-keatsu.pele",
+    "name": "Pele",
+    "author": "hazuki-keatsu.pele",
+    "description": "Render Mermaid diagrams with Pele.",
+    "repo": "hazuki-keatsu/typora-pele",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
