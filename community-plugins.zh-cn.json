@@ -15,7 +15,7 @@
     "id": "typora-community-plugin.callout",
     "name": "Callout",
     "author": "plylrnsdy",
-    "description": "支持Obsidian风格的标注块 `> [!type]`。",
+    "description": "支持类似Obsidian的标注块 `> [!type]`。",
     "repo": "typora-community-plugin/typora-plugin-callout",
     "platforms": [
       "win32",
@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "与AI讨论你的笔记。",
+    "description": "与AI讨论您的笔记。",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "将语言A映射到语言B以实现语法高亮。",
+    "description": "将语言A映射到语言B以进行语法高亮。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -63,7 +63,7 @@
     "id": "typora-community-plugin.codeblock-previewer-plus",
     "name": "Codeblock Previewer Plus",
     "author": "plylrnsdy",
-    "description": "在浮动窗口中打开渲染后的代码块预览（如Mermaid），支持缩放和拖拽。",
+    "description": "在浮动窗口中打开渲染的代码块预览（如Mermaid），支持缩放和拖拽。",
     "repo": "typora-community-plugin/typora-plugin-codeblock-previewer-plus",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "使你的代码可折叠。",
+    "description": "使您的代码可折叠。",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -123,7 +123,7 @@
     "id": "typora-community-plugin.darkmode",
     "name": "Dark Mode",
     "author": "plylrnsdy",
-    "description": "为任何主题提供通用深色模式。",
+    "description": "适用于任何主题的通用深色模式。",
     "repo": "typora-community-plugin/typora-plugin-darkmode",
     "platforms": [
       "win32",
@@ -135,7 +135,7 @@
     "id": "typora-community-plugin.file-icon",
     "name": "File Icon",
     "author": "plylrnsdy",
-    "description": "在文件树中为不同文件类型显示不同的图标。",
+    "description": "在文件树中为不同文件类型显示不同图标。",
     "repo": "typora-community-plugin/typora-plugin-file-icon",
     "platforms": [
       "win32",
@@ -181,7 +181,7 @@
     "id": "typora-community-plugin.image-location",
     "name": "Image Location",
     "author": "plylrnsdy",
-    "description": "解析图片相对于仓库根目录的位置。",
+    "description": "解析图像相对于仓库根目录的位置。",
     "repo": "typora-community-plugin/typora-plugin-image-location",
     "platforms": [
       "win32",
@@ -193,7 +193,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "查看当前Markdown中的所有图片。",
+    "description": "查看当前Markdown中的所有图像。",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -241,7 +241,7 @@
     "id": "typora-community-plugin.note-refactor",
     "name": "Note Refactor",
     "author": "plylrnsdy",
-    "description": "将选中内容提取到新文件。",
+    "description": "将选定内容提取到新文件。",
     "repo": "typora-community-plugin/typora-plugin-note-refactor",
     "platforms": [
       "win32",
@@ -252,7 +252,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "使用斜杠命令自动补全笔记片段。",
+    "description": "使用斜杠命令自动完成笔记片段。",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -359,7 +359,7 @@
     "id": "typora-community-plugin.githubpusher",
     "name": "Github Pusher",
     "author": "Veik",
-    "description": "将你的Markdown文件直接从Typora推送到GitHub仓库。",
+    "description": "将您的Markdown文件从Typora直接推送到GitHub仓库。",
     "repo": "Veikkkk/typora-plugin-push-to-github",
     "platforms": [
       "win32",
@@ -430,7 +430,7 @@
     "id": "n7tequila.typora-plugin-splitwindow",
     "name": "Split Window",
     "author": "n7tequila",
-    "description": "将当前Typora文档拆分为可独立滚动的窗格。",
+    "description": "将当前Typora文档拆分为独立可滚动的窗格。",
     "repo": "n7tequila/typora-plugin-splitwindow",
     "platforms": [
       "win32",
@@ -442,7 +442,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "恢复在Typora中打开的Codex Markdown导出文件中的可折叠嵌套详情块。",
+    "description": "在Typora中打开Codex Markdown导出文件时，恢复可折叠的嵌套详情块。",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -486,7 +486,7 @@
     "id": "AlexShyXie.markdown-export",
     "name": "Markdown Export",
     "author": "AlexShyXie",
-    "description": "将当前Markdown文件及其本地附件（图片等）导出到任意文件夹：将引用的文件收集到可配置的子文件夹（images / vx_images / assets ...）中并重写链接。支持 ![](uri)、<img src> 和 ![[wikilink]]。",
+    "description": "将当前Markdown文件及其本地附件（如图像等）导出到任意文件夹：将引用的文件收集到可配置的子文件夹（images / vx_images / assets ...）中并重写链接。支持 ![](uri)、<img src> 和 ![[wikilink]]。",
     "repo": "AlexShyXie/markdown-export-for-typora-community-plugin",
     "platforms": [
       "win32",
@@ -498,7 +498,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述形式）搜索键/标题/作者/年份/期刊/DOI，并高亮显示建议，从单个本地CSL文件渲染引用和参考文献。",
+    "description": "从本地BibTeX文件插入引用：通过@query（括号或叙述式）搜索键/标题/作者/年份/期刊/DOI，并高亮显示建议，从单个本地CSL文件渲染引用和参考文献。",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"
@@ -530,8 +530,20 @@
     "id": "AlexShyXie.callout-copy-button",
     "name": "Callout Copy Button",
     "author": "AlexShyXie",
-    "description": "为标注块添加复制按钮。三个独立开关：选择整个标注块、以纯文本复制正文、以Markdown格式复制正文。",
+    "description": "为标注块添加复制按钮。三个独立开关：选择整个标注块、将正文复制为纯文本、将正文复制为Markdown。",
     "repo": "AlexShyXie/typora-callout-copy-buttons",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "hazuki-keatsu.pele",
+    "name": "Pele",
+    "author": "hazuki-keatsu.pele",
+    "description": "使用Pele渲染Mermaid图表。",
+    "repo": "hazuki-keatsu/typora-pele",
     "platforms": [
       "win32",
       "linux",

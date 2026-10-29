@@ -27,7 +27,7 @@
     "id": "typora-community-plugin.chat",
     "name": "Chat",
     "author": "plylrnsdy",
-    "description": "Chatten Sie über Ihre Notizen mit KI.",
+    "description": "Chatten Sie über Ihre Notiz mit KI.",
     "repo": "typora-community-plugin/typora-plugin-chat",
     "platforms": [
       "win32",
@@ -51,7 +51,7 @@
     "id": "typora-community-plugin.codeblock-highlight-mapper",
     "name": "Codeblock Highlight Mapper",
     "author": "plylrnsdy",
-    "description": "Sprache A für Syntaxhervorhebung auf Sprache B abbilden.",
+    "description": "Sprache A auf Sprache B für die Hervorhebung abbilden.",
     "repo": "typora-community-plugin/typora-plugin-codeblock-highlight-mapper",
     "platforms": [
       "win32",
@@ -87,7 +87,7 @@
     "id": "typora-community-plugin.code-folding",
     "name": "Code Folding",
     "author": "plylrnsdy",
-    "description": "Machen Sie Ihre Codes einklappbar.",
+    "description": "Machen Sie Ihre Codes faltbar.",
     "repo": "typora-community-plugin/typora-plugin-code-folding",
     "platforms": [
       "win32",
@@ -146,7 +146,7 @@
     "id": "typora-community-plugin.footnotes",
     "name": "Footnotes",
     "author": "plylrnsdy",
-    "description": "Fußnoten-Marker-Vorschläge & Numerische Fußnoten neu indizieren.",
+    "description": "Fußnoten-Marker-Vorschläge & Fußnoten numerisch neu indizieren.",
     "repo": "typora-community-plugin/typora-plugin-footnotes",
     "platforms": [
       "win32",
@@ -170,7 +170,7 @@
     "id": "typora-community-plugin.git",
     "name": "Git",
     "author": "plylrnsdy",
-    "description": "Eine Git-Seitenleiste für Typora: Dateien anzeigen und zum Staging hinzufügen/entfernen.",
+    "description": "Eine Git-Seitenleiste für Typora: Dateien anzeigen und stagen/entstagen.",
     "repo": "typora-community-plugin/typora-plugin-git",
     "platforms": [
       "win32",
@@ -193,7 +193,7 @@
     "id": "typora-community-plugin.image-viewer",
     "name": "Image Viewer",
     "author": "plylrnsdy",
-    "description": "Alle Bilder im aktuellen Markdown anzeigen.",
+    "description": "Zeigt alle Bilder im aktuellen Markdown-Dokument an.",
     "repo": "typora-community-plugin/typora-plugin-image-viewer",
     "platforms": [
       "win32",
@@ -252,7 +252,7 @@
     "id": "typora-community-plugin.note-snippets",
     "name": "Note Snippets",
     "author": "plylrnsdy",
-    "description": "Verwenden Sie Slash-Befehle zur Autovervollständigung von Notiz-Snippets.",
+    "description": "Verwenden Sie Slash-Befehle, um Notiz-Snippets automatisch zu vervollständigen.",
     "repo": "typora-community-plugin/typora-plugin-note-snippets",
     "platforms": [
       "win32",
@@ -264,7 +264,7 @@
     "id": "typora-community-plugin.statistics",
     "name": "Statistics",
     "author": "plylrnsdy",
-    "description": "Dokumentstatistiken anzeigen.",
+    "description": "Zeigt Dokumentstatistiken an.",
     "repo": "typora-community-plugin/typora-plugin-statistics",
     "platforms": [
       "win32",
@@ -299,7 +299,7 @@
     "id": "typora-community-plugin.templater",
     "name": "Templater",
     "author": "plylrnsdy",
-    "description": "Notizen mit Vorlagen erstellen.",
+    "description": "Notizen mit Templater erstellen.",
     "repo": "typora-community-plugin/typora-plugin-templater",
     "platforms": [
       "win32",
@@ -418,7 +418,7 @@
     "id": "n7tequila.typora-plugin-plantuml",
     "name": "PlantUML",
     "author": "n7tequila",
-    "description": "PlantUML-Codeblöcke in Typora in der Vorschau anzeigen.",
+    "description": "PlantUML-Codeblöcke in Typora vorschauen.",
     "repo": "n7tequila/typora-plugin-plantuml",
     "platforms": [
       "win32",
@@ -442,7 +442,7 @@
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
-    "description": "Stellt einklappbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
+    "description": "Stellt zusammenklappbare verschachtelte Details-Blöcke in Codex-Markdown-Exporten wieder her, die in Typora geöffnet werden.",
     "repo": "Citizenyolo/typora-plugin-chatgpt-details",
     "platforms": [
       "darwin"
@@ -463,7 +463,7 @@
     "id": "prisant-labs.favorite-folders-files",
     "name": "Favorites",
     "author": "Prisant Labs",
-    "description": "Halten Sie bevorzugte Ordner und Markdown-Dateien in Typora griffbereit.",
+    "description": "Hält bevorzugte Ordner und Markdown-Dateien in Typora griffbereit.",
     "repo": "prisant-labs/typora-plugin-favorite-folders-files",
     "platforms": [
       "win32",
@@ -498,7 +498,7 @@
     "id": "AlexShyXie.bibtex-citation",
     "name": "BibTeX Citations",
     "author": "AlexShyXie",
-    "description": "Zitate aus lokalen BibTeX-Dateien einfügen: Schlüssel/Titel/Autoren/Jahre/Zeitschriften/DOIs über @query (Klammer- oder Erzählform) mit hervorgehobenen Vorschlägen suchen und Zitate + Bibliographie aus einer einzigen lokalen CSL-Datei rendern.",
+    "description": "Fügt Zitate aus lokalen BibTeX-Dateien ein: Sucht nach Schlüsseln/Titeln/Autoren/Jahren/Zeitschriften/DOIs via @query (Klammer- oder Erzählform) mit hervorgehobenen Vorschlägen und rendert Zitate + Bibliographie aus einer einzelnen lokalen CSL-Datei.",
     "repo": "AlexShyXie/typora-plugin-bibtex-citation",
     "platforms": [
       "win32"
@@ -530,8 +530,20 @@
     "id": "AlexShyXie.callout-copy-button",
     "name": "Callout Copy Button",
     "author": "AlexShyXie",
-    "description": "Fügt Kopier-Schaltflächen zu Callouts hinzu. Drei unabhängige Umschalter: gesamtes Callout auswählen, den Textkörper als Klartext kopieren, den Textkörper als Markdown kopieren.",
+    "description": "Fügt Kopier-Schaltflächen zu Callouts hinzu. Drei unabhängige Umschalter: gesamtes Callout auswählen, den Inhalt als Klartext kopieren, den Inhalt als Markdown kopieren.",
     "repo": "AlexShyXie/typora-callout-copy-buttons",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
+    "id": "hazuki-keatsu.pele",
+    "name": "Pele",
+    "author": "hazuki-keatsu.pele",
+    "description": "Rendert Mermaid-Diagramme mit Pele.",
+    "repo": "hazuki-keatsu/typora-pele",
     "platforms": [
       "win32",
       "linux",
