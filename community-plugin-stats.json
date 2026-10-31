@@ -387,13 +387,13 @@
   "prisant-labs.outline-view": {
     "size": 32840,
     "0.2.1": 6,
-    "downloads": 49,
+    "downloads": 50,
     "updated": 1793319905000,
     "0.3.0": 4,
     "0.3.1": 10,
     "0.3.2": 9,
     "0.4.0": 15,
-    "0.4.1": 5
+    "0.4.1": 6
   },
   "prisant-labs.favorite-folders-files": {
     "size": 55113,
@@ -468,9 +468,11 @@
     "updated": 1793271838000
   },
   "hazuki-keatsu.enhanced-table": {
-    "size": 15041,
-    "0.1.0": 0,
-    "downloads": 0,
-    "updated": 1793445481000
+    "size": 15490,
+    "0.1.0": 2,
+    "downloads": 3,
+    "updated": 1793456103000,
+    "0.1.2": 0,
+    "0.1.1": 1
   }
 }
