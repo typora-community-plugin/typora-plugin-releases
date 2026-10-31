@@ -21,24 +21,24 @@
     "size": 82253,
     "1.0.2": 1,
     "1.0.1": 1,
-    "downloads": 91,
+    "downloads": 92,
     "updated": 1792903151000,
     "1.0.5": 3,
     "1.0.7": 4,
     "1.1.0": 17,
     "1.2.5": 39,
     "1.2.7": 19,
-    "1.2.8": 7
+    "1.2.8": 8
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 192,
     "1.0.1": 24,
     "1.0.0": 11,
-    "downloads": 1116,
+    "downloads": 1117,
     "updated": 1783359542000,
     "size": 2181,
     "1.1.1": 658,
-    "1.2.0": 231
+    "1.2.0": 232
   },
   "typora-community-plugin.codeblock-highlight-mapper": {
     "1.1.1": 10,
@@ -113,11 +113,11 @@
   "typora-community-plugin.darkmode": {
     "1.1.0": 17,
     "1.0.0": 4,
-    "downloads": 301,
+    "downloads": 303,
     "updated": 1783360739000,
     "1.1.2": 234,
     "size": 2577,
-    "1.2.0": 46
+    "1.2.0": 48
   },
   "typora-community-plugin.file-icon": {
     "1.0.1": 301,
@@ -130,7 +130,7 @@
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 272,
+    "downloads": 273,
     "updated": 1783342072000,
     "1.1.1": 115,
     "1.1.0": 3,
@@ -138,7 +138,7 @@
     "1.2.1": 4,
     "1.2.2": 73,
     "1.2.3": 18,
-    "1.2.5": 42,
+    "1.2.5": 43,
     "1.2.4": 11
   },
   "typora-community-plugin.front-matter": {
@@ -156,9 +156,9 @@
   },
   "typora-community-plugin.git": {
     "size": 12056,
-    "1.0.1": 23,
+    "1.0.1": 24,
     "1.0.0": 0,
-    "downloads": 23,
+    "downloads": 24,
     "updated": 1789280245000
   },
   "typora-community-plugin.image-location": {
@@ -301,7 +301,7 @@
     "1.1.1": 6,
     "1.0.1": 8,
     "1.0.0": 6,
-    "downloads": 451,
+    "downloads": 452,
     "updated": 1791194632000,
     "1.2.0": 240,
     "size": 8698,
@@ -310,7 +310,7 @@
     "1.6.1": 21,
     "1.6.0": 1,
     "1.6.2": 2,
-    "1.6.3": 25
+    "1.6.3": 26
   },
   "typora-community-plugin.md-padding": {
     "size": 9511,
@@ -323,9 +323,9 @@
   },
   "typora-community-plugin.githubpusher": {
     "size": 4202,
-    "1.0.2": 75,
+    "1.0.2": 76,
     "1.0.1": 3,
-    "downloads": 78,
+    "downloads": 79,
     "updated": 1755888347000
   },
   "util6.markmapplus": {
@@ -387,13 +387,13 @@
   "prisant-labs.outline-view": {
     "size": 32840,
     "0.2.1": 6,
-    "downloads": 48,
+    "downloads": 49,
     "updated": 1793319905000,
     "0.3.0": 4,
     "0.3.1": 10,
     "0.3.2": 9,
     "0.4.0": 15,
-    "0.4.1": 4
+    "0.4.1": 5
   },
   "prisant-labs.favorite-folders-files": {
     "size": 55113,
@@ -466,5 +466,11 @@
     "0.1.0": 1,
     "downloads": 1,
     "updated": 1793271838000
+  },
+  "hazuki-keatsu.enhanced-table": {
+    "size": 15041,
+    "0.1.0": 0,
+    "downloads": 0,
+    "updated": 1793445481000
   }
 }
