@@ -374,5 +374,13 @@
     "description": "Render Mermaid diagrams with Pele.",
     "repo": "hazuki-keatsu/typora-pele",
     "platforms": ["win32", "linux", "darwin"]
+  },
+  {
+    "id": "hazuki-keatsu.enhanced-table",
+    "name": "Enhanced Table",
+    "author": "hazuki-keatsu",
+    "description": "Visual HTML table editing with merged cells and more.",
+    "repo": "hazuki-keatsu/typora-enhanced-table",
+    "platforms": ["win32", "linux", "darwin"]
   }
 ]
