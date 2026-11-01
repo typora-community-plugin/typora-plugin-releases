@@ -19,6 +19,7 @@ jobs:
       LLM_BASE_URL: "https://api.siliconflow.cn/v1"   # e.g. https://api.deepseek.com/v1, http://host:port/v1
       LLM_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}       # required
       LLM_MODEL: "deepseek-ai/DeepSeek-V3.2"                      # any chat model served by the endpoint
+      PREV_PLUGINS_FILE: ".prev-community-plugins.json"           # temp copy of the previous English list
     steps:
       - uses: actions/checkout@v4
         with:
@@ -45,14 +46,30 @@ jobs:
           : "${LLM_API_KEY:?set repo secret LLM_API_KEY}"
           : "${LLM_MODEL:?set repo env LLM_MODEL}"
 
+          # Previous English descriptions, used to detect added/changed plugins.
+          BASE="${{ github.event.before }}"
+          if [ "$BASE" = "0000000000000000000000000000000000000000" ] || [ -z "$BASE" ]; then
+            BASE=$(git rev-parse HEAD~1 2>/dev/null || git hash-object -t tree /dev/null)
+          fi
+          if git show "$BASE:community-plugins.json" > "$PREV_PLUGINS_FILE" 2>/dev/null; then
+            echo "Loaded previous descriptions from $BASE"
+          else
+            rm -f "$PREV_PLUGINS_FILE"
+            echo "No previous community-plugins.json available."
+          fi
+
           node <<'NODEEOF'
           const fs = require('fs');
           const https = require('https');
           const http = require('http');
 
-          const BASE_URL = process.env.LLM_BASE_URL.replace(/\/+$/, '');
-          const API_KEY  = process.env.LLM_API_KEY;
-          const MODEL    = process.env.LLM_MODEL;
+          const BASE_URL  = process.env.LLM_BASE_URL.replace(/\/+$/, '');
+          const API_KEY   = process.env.LLM_API_KEY;
+          const MODEL     = process.env.LLM_MODEL;
+          const PREV_FILE = process.env.PREV_PLUGINS_FILE || '';
+          const BATCH_SIZE    = 20;  // descriptions per LLM request
+          const CONCURRENCY   = 4;   // parallel LLM requests per language
+          const MAX_ATTEMPTS  = 3;   // retries per request
 
           function post(path, body) {
             return new Promise((resolve, reject) => {
@@ -108,6 +125,40 @@ jobs:
             throw new Error('no JSON object found in LLM response');
           }
 
+          const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+          async function withRetry(fn, attempts = MAX_ATTEMPTS) {
+            let lastErr;
+            for (let i = 0; i < attempts; i++) {
+              try { return await fn(); }
+              catch (e) {
+                lastErr = e;
+                if (i < attempts - 1) await sleep(1000 * Math.pow(2, i));
+              }
+            }
+            throw lastErr;
+          }
+
+          function chunk(arr, size) {
+            const out = [];
+            for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+            return out;
+          }
+
+          async function mapLimit(list, limit, fn) {
+            const results = new Array(list.length);
+            let next = 0;
+            const workers = Array.from({ length: Math.min(limit, list.length) }, async () => {
+              for (;;) {
+                const i = next++;
+                if (i >= list.length) return;
+                results[i] = await fn(list[i], i);
+              }
+            });
+            await Promise.all(workers);
+            return results;
+          }
+
           async function translateBatch(items, langName) {
             const sys = 'You are a professional translator. You will be given a JSON array of objects, each with an "id" and a "description". Translate every "description" into ' +
               langName + '. Reply with ONLY one valid JSON object mapping each id to its translated description string (no other keys, no explanations, no markdown). Keep the exact same ids.';
@@ -126,30 +177,96 @@ jobs:
           }
 
           (async () => {
+            const started = Date.now();
             const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
             if (!Array.isArray(plugins)) throw new Error('community-plugins.json is not an array');
 
-            // Build the source (English) list once, before any mutation.
-            const items = plugins.filter(p => p.description && typeof p.description === 'string')
+            // Source (English) list. Only entries with a non-empty description need translating.
+            const items = plugins
+              .filter(p => p && p.id && typeof p.description === 'string' && p.description.trim())
               .map(p => ({ id: p.id, description: p.description }));
+            const sourceById = new Map(items.map(it => [it.id, it.description]));
 
-            for (const [lang, file] of [['zh-cn', 'community-plugins.zh-cn.json'], ['de', 'community-plugins.de.json']]) {
-              const langName = lang === 'zh-cn' ? 'Simplified Chinese (中文)' : 'German';
-              console.log(`Translating ${items.length} descriptions -> ${file}`);
-
-              // Start each language from the original English array so languages never feed into each other.
-              const translated = JSON.parse(JSON.stringify(plugins));
-              const byId = new Map(translated.map(p => [p.id, p]));
-              const mapping = await translateBatch(items, langName);
-              for (const it of items) {
-                const t = String(mapping[it.id] ?? '').trim();
-                if (!t) throw new Error(`missing translation for ${it.id}`);
-                byId.get(it.id).description = t;
+            // English descriptions as of the previous commit (missing when unavailable).
+            const prevById = new Map();
+            if (PREV_FILE && fs.existsSync(PREV_FILE)) {
+              try {
+                const prev = JSON.parse(fs.readFileSync(PREV_FILE, 'utf8'));
+                if (Array.isArray(prev)) {
+                  for (const p of prev) {
+                    if (p && p.id && typeof p.description === 'string') prevById.set(p.id, p.description);
+                  }
+                }
+              } catch (e) {
+                console.warn('Ignoring unreadable previous plugin file: ' + e.message);
               }
-              fs.writeFileSync(file, JSON.stringify(translated, null, 2) + '\n', 'utf8');
             }
 
-            console.log('Translation done.');
+            const LANGS = [
+              ['zh-cn', 'community-plugins.zh-cn.json', 'Simplified Chinese (中文)'],
+              ['de',    'community-plugins.de.json',    'German'],
+            ];
+
+            await Promise.all(LANGS.map(async ([lang, file, langName]) => {
+              // Reuse whatever is already translated.
+              const translated = new Map();
+              if (fs.existsSync(file)) {
+                try {
+                  const arr = JSON.parse(fs.readFileSync(file, 'utf8'));
+                  if (Array.isArray(arr)) {
+                    for (const p of arr) {
+                      if (p && p.id && typeof p.description === 'string') translated.set(p.id, p.description);
+                    }
+                  }
+                } catch (e) {
+                  console.warn(`[${lang}] ignoring unreadable ${file}: ${e.message}`);
+                }
+              }
+
+              // Only translate what is new, changed upstream, or still left in English.
+              const todo = items.filter(it => {
+                const existing = translated.get(it.id);
+                if (!existing || existing === it.description) return true;
+                const prev = prevById.get(it.id);
+                return prev !== undefined && prev !== it.description;
+              });
+
+              if (todo.length === 0) {
+                console.log(`[${lang}] up to date (${items.length} descriptions), nothing to translate`);
+              } else {
+                console.log(`[${lang}] translating ${todo.length}/${items.length} descriptions -> ${file}`);
+                const batches = chunk(todo, BATCH_SIZE);
+                await mapLimit(batches, CONCURRENCY, async (batch, i) => {
+                  let mapping = null;
+                  try {
+                    mapping = await withRetry(() => translateBatch(batch, langName));
+                  } catch (e) {
+                    console.warn(`[${lang}] batch ${i + 1}/${batches.length} failed: ${e.message}`);
+                  }
+                  for (const it of batch) {
+                    const t = mapping ? String(mapping[it.id] ?? '').trim() : '';
+                    if (t) {
+                      translated.set(it.id, t);
+                    } else if (!translated.has(it.id) || translated.get(it.id) === it.description) {
+                      // Keep English for this run; it stays in `todo` next time.
+                      console.warn(`[${lang}] no translation for ${it.id}, leaving English`);
+                      translated.set(it.id, it.description);
+                    }
+                  }
+                });
+              }
+
+              // Rebuild in the current plugin order so field changes are picked up too.
+              const out = plugins.map(p => {
+                if (!p || typeof p.description !== 'string') return p;
+                if (!sourceById.has(p.id)) return p;
+                const t = translated.get(p.id);
+                return t ? { ...p, description: t } : p;
+              });
+              fs.writeFileSync(file, JSON.stringify(out, null, 2) + '\n', 'utf8');
+            }));
+
+            console.log(`Translation done in ${((Date.now() - started) / 1000).toFixed(1)}s.`);
           })().catch(e => { console.error(e); process.exit(1); });
           NODEEOF
 
