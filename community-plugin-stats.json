@@ -21,7 +21,7 @@
     "size": 94197,
     "1.0.2": 2,
     "1.0.1": 2,
-    "downloads": 117,
+    "downloads": 118,
     "updated": 1793735116000,
     "1.0.5": 4,
     "1.0.7": 5,
@@ -29,7 +29,7 @@
     "1.2.5": 40,
     "1.2.7": 21,
     "1.2.8": 13,
-    "1.2.13": 12
+    "1.2.13": 13
   },
   "typora-community-plugin.codeblock-copy-button": {
     "1.1.0": 192,
@@ -88,7 +88,7 @@
     "1.2.0": 47,
     "1.1.0": 14,
     "1.0.0": 14,
-    "downloads": 1675,
+    "downloads": 1683,
     "updated": 1793808670000,
     "1.5.2": 46,
     "1.6.0": 65,
@@ -103,7 +103,7 @@
     "1.13.0": 188,
     "1.12.0": 64,
     "1.13.1": 186,
-    "1.13.2": 22
+    "1.13.2": 30
   },
   "typora-community-plugin.csv": {
     "size": 29920,
@@ -124,15 +124,15 @@
   "typora-community-plugin.file-icon": {
     "1.0.1": 301,
     "1.0.0": 5,
-    "downloads": 386,
+    "downloads": 387,
     "updated": 1783403341000,
     "size": 3621,
-    "1.2.1": 80
+    "1.2.1": 81
   },
   "typora-community-plugin.footnotes": {
     "1.0.1": 2,
     "1.0.0": 4,
-    "downloads": 274,
+    "downloads": 275,
     "updated": 1783342072000,
     "1.1.1": 115,
     "1.1.0": 3,
@@ -140,7 +140,7 @@
     "1.2.1": 4,
     "1.2.2": 73,
     "1.2.3": 18,
-    "1.2.5": 44,
+    "1.2.5": 45,
     "1.2.4": 11
   },
   "typora-community-plugin.front-matter": {
@@ -173,13 +173,13 @@
     "size": 1484
   },
   "typora-community-plugin.image-viewer": {
-    "downloads": 388,
+    "downloads": 389,
     "updated": 1757254714000,
     "1.0.2": 36,
     "1.0.0": 5,
     "1.0.3": 111,
     "size": 15985,
-    "1.0.4": 236
+    "1.0.4": 237
   },
   "typora-community-plugin.kanban": {
     "size": 37420,
@@ -208,8 +208,8 @@
   },
   "typora-community-plugin.mini-outline": {
     "size": 7684,
-    "1.0.0": 43,
-    "downloads": 43,
+    "1.0.0": 45,
+    "downloads": 45,
     "updated": 1789653877000
   },
   "typora-community-plugin.note-refactor": {
@@ -332,7 +332,7 @@
   },
   "util6.markmapplus": {
     "size": 941785,
-    "v1.6.9": 49,
+    "v1.6.9": 52,
     "v1.6.8": 1,
     "v1.6.7": 73,
     "v1.6.4": 4,
@@ -346,7 +346,7 @@
     "v1.1.0": 6,
     "v1.0.3": 1,
     "v1.0.1": 1,
-    "downloads": 177,
+    "downloads": 180,
     "updated": 1776236479000
   },
   "typora-community-plugin.git-sync": {
@@ -389,13 +389,13 @@
   "prisant-labs.outline-view": {
     "size": 32840,
     "0.2.1": 7,
-    "downloads": 60,
+    "downloads": 61,
     "updated": 1793319905000,
     "0.3.0": 5,
     "0.3.1": 11,
     "0.3.2": 9,
     "0.4.0": 16,
-    "0.4.1": 12
+    "0.4.1": 13
   },
   "prisant-labs.favorite-folders-files": {
     "size": 56258,
