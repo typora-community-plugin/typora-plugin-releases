@@ -1,5 +1,17 @@
 [
   {
+    "id": "bianji777.pastelatex",
+    "name": "PasteLaTeX",
+    "author": "BianJi777",
+    "description": "将AI聊天数学内容（KaTeX MathML）以LaTeX格式粘贴到Typora中，保留表格、格式和撤销功能。",
+    "repo": "BianJi777/PasteLaTeX",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
