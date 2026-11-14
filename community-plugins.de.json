@@ -1,17 +1,5 @@
 [
   {
-    "id": "bianji777.pastelatex",
-    "name": "PasteLaTeX",
-    "author": "BianJi777",
-    "description": "Paste AI-chat math (KaTeX MathML) into Typora as LaTeX, keeping tables, formatting and undo.",
-    "repo": "BianJi777/PasteLaTeX",
-    "platforms": [
-      "win32",
-      "linux",
-      "darwin"
-    ]
-  },
-  {
     "id": "typora-community-plugin.abcjs",
     "name": "ABC Music Notation",
     "author": "plylrnsdy",
