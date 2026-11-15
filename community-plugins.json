@@ -3,7 +3,7 @@
     "id": "bianji777.pastelatex",
     "name": "PasteLaTeX",
     "author": "BianJi777",
-    "description": "Paste AI-chat math (KaTeX MathML) into Typora as LaTeX, keeping tables, formatting and undo.",
+    "description": "Paste AI-chat formulas (ChatGPT, DeepSeek, Gemini) into Typora as LaTeX — keeps tables, $$ blocks and undo.",
     "repo": "BianJi777/PasteLaTeX",
     "platforms": ["win32", "linux", "darwin"]
   },
