@@ -304,6 +304,14 @@
     "platforms": ["win32", "linux", "darwin"]
   },
   {
+    "id": "n7tequila.typora-plugin-cn-math-notation",
+    "name": "cn-math-notation",
+    "author": "n7tequila",
+    "description": "Draw Chinese school math notation in math blocks: vertical arithmetic, step-by-step equations, short division, factor trees and more.",
+    "repo": "n7tequila/typora-plugin-cn-math-notation",
+    "platforms": ["win32", "linux", "darwin"]
+  },
+  {
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
