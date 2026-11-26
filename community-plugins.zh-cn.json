@@ -451,6 +451,18 @@
     ]
   },
   {
+    "id": "n7tequila.typora-plugin-cn-math-notation",
+    "name": "cn-math-notation",
+    "author": "n7tequila",
+    "description": "在数学块中绘制中国学校数学符号：竖式算术、分步方程、短除法、因数树等。",
+    "repo": "n7tequila/typora-plugin-cn-math-notation",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",

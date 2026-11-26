@@ -451,6 +451,18 @@
     ]
   },
   {
+    "id": "n7tequila.typora-plugin-cn-math-notation",
+    "name": "cn-math-notation",
+    "author": "n7tequila",
+    "description": "Zeichne chinesische Schulmathematik-Notation in Matheblöcken: vertikale Arithmetik, schrittweise Gleichungen, Kurzdivision, Faktorisierungsbäume und mehr.",
+    "repo": "n7tequila/typora-plugin-cn-math-notation",
+    "platforms": [
+      "win32",
+      "linux",
+      "darwin"
+    ]
+  },
+  {
     "id": "citizenyolo.chatgpt-details",
     "name": "ChatGPT Details",
     "author": "Citizenyolo",
